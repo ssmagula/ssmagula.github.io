@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<section class="news">
+	<div class="container">
+		<div class="row">
+			<div class="article col-lg-6 col-lg-offset-2 col-sm-6 col-sm-offset-2 body">
+				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+					<div class="flytitle">{{ page.flytitle | escape }}</div>
+					<div class="title h1">{{ page.title | escape }}</div>
+					<div class="dek"><p>{{ page.dek }}</p></div>
+					<img src="{{ page.img-large | escape }}" class="img-responsive">
+					
+					  <div class="body"> <!-- SMAG: body class sets margin-top and line-height -->
+						  {{ content }} 
+						  <!-- SMAG: body of article comes with its own p tags -->
+						  {{ site.disqus.shortname | escape }}
+					  								
+	  					  {% if site.disqus.shortname %}
+	  					    {% include disqus_comments.html %}
+	  					  {% endif %}
+					  </div>
+					  </article> <i class=" fa fa-sun-o"></i>
+							  				 	  
+			</div>
+		
+        <div class="team-member sidebar col-lg-3  col-md-3 col-sm-3">
+			<p class="text-muted">
+				
+				<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">By {{ page.author }}</span></span>{% endif %}
+			</p>
+	
+            <ul class="list-inline social-buttons">
+                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+            </ul>
+			
+			<!-- Smag commenting out sidebar 
+			<h5 class="section-heading" style="margin:30px 0px 10px 0px">Recent Posts</h5>
+			<div class="news article-list" style="text-align: left">	
+			    {% for post in site.posts limit:6 %}
+			      <div>
+					<div class="flytitle" style="padding:5px 0px; font-size:1em">{{ post.flytitle | escape }}</div>
+			        <a href="{{ post.url | relative_url }}"><p class="title h5">{{ post.title | escape }}</p></a>
+					<p class="text-muted text-small">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<hr>
+			      </div>			  
+			    {% endfor %}
+				<a href="{{ "/news.html" | relative_url }}">View all news</a>
+			</div> 	-->
+        </div>
+	  </div> <!-- Smag: closes Row -->		
+	</div> <!-- Smag: closes Div class=Container -->
+	
+	<!-- SMAG: here's image plus title and excerpts of posts-->
+				
+	<div class="container">
+		<div class="row">
+			<div class="section-subheading text-center">
+				<h4 style="margin-top: 60px;">Latest posts</h4>
+				<hr>
+			</div>
+		</div>	
+		{% for post in site.posts limit:3 %}
+		<div class="row">
+			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-4">
+			<a href="{{ post.url | relative_url }}">
+				<img src=" {{ post.img-large | escape }} " class="img-responsive" style="margin-top:7px">
+			</a>
+			</div>
+
+			<div class="col-lg-5 col-sm-5">
+				<div class="flytitle" style="padding-bottom:10px; font-size:1.1em">
+					{{ post.flytitle | escape }}
+				</div>
+				<a href="{{ post.url | relative_url }}">
+					<span class="title h3">{{ post.title | escape }}</span>
+				</a>
+						<p style="font-size:1.1em">{{ post.content | strip_html | truncatewords: 28 }}</p>
+					<span>
+						{{ post.author | escape }}</span>, <span>{{ post.date | date: "%b %-d, %Y" }}
+					</span>
+				<hr>
+			</div>
+		</div>
+	{% endfor %}
+	</div>	
+</section>

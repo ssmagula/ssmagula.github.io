@@ -1,0 +1,204 @@
+  <!-- What We Do Section -->
+  <section id="what" class="bg-light-gray">
+      <div class="container">
+		  
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">What we do</h2>
+                  <h3 class="section-subheading text-muted">Fill your fuel cell electric car in 3 minutes or provide resilient power for your business with hydrogen.</h3>
+              </div>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-envira fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Hydrogen for Electric Cars</h4>
+                  <p class="text-muted">We <a href="/index.html#hydrogen">create clean hydrogen</a> using domestic natural gas and biogas. Power up with HydrogeNXT, and you'll feel good about driving again.</p>
+				  <a 
+				  href="{{ "/trailer.html" | relative_url }}" 
+				  class="page-scroll btn btn-primary" 
+				  style="margin-bottom:60px"><i class="fa fa-video-camera"></i> Watch Zero Emissions Video
+			  	  </a>
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Cure for drivers' range anxiety</h4>
+                  <p class="text-muted">Our patented mobile app reservation system means you're assured hydrogen at our stations. Say adios, so long, sayonara to range anxiety.</p>
+				  <a href="{{ "/reservations.html" | relative_url }}" 
+				  class="page-scroll btn btn-primary" 
+				  style="margin-bottom:60px"><i class="fa fa-video-camera"></i> Watch Reservation Video</a>
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Resilient power supply</h4>
+                  <p class="text-muted">Hydrogen fuel cells provide cost-effective, resilient power for data centers, cell phone towers, and offices. With HydrogeNXT, we'll all get there faster.</p><button class="btn btn-primary" style="margin-bottom:60px" data-toggle="modal" data-target="#emailModal" data-message="Hello data message here">Download whitepaper</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; 
+		            {% if site.author %}
+		              {{ site.author | escape }}
+		            {% else %}
+		              {{ site.title | escape }}
+		            {% endif %}
+					</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/hydrogenxt"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://facebook.com/hydrogenxt"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company-beta/6673032/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Legal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modal Window -->
+    <!-- This is the container for a dynamic modal window that showcases details about each featured whitepaper-->
+
+	<div class="modal fade" id="stationModal" tabindex="-1" role="dialog" aria-labelledby="stationModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true" style="font-size:2em;">&times;</span>
+	        </button>
+			<h3 class="modal-title" id="exampleModalLabel"></h3> <!-- Smag: modal js will insert title here-->
+	      </div>
+	      <div class="modal-body">
+			<img class="img-responsive" id="image" src="" alt="station image" longdescrip="The image of a hydrogenxt station">
+			<p class="caption text-muted" id="caption"></p>
+			<p class="text-muted" id="descrip"></p>  
+	      </div>
+	      <div class="modal-footer">
+	        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- END New Modal Window-->
+	
+	<!-- BEGIN email modal -->
+	<div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:2em;">&times;</span></button>
+	        <h3 class="modal-title" id="emailModalLabel">Sign up for our newsletter</h3>
+			<p>BE THE FIRST to learn about our mobile apps for reserving hydrogen, promotions, and station grand openings. We'll only send occasional updates and you can opt out anytime. Together we'll get there faster. <a href="#">Privacy policy</a>.
+			</p>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+	          <div class="form-group">
+	            <label for="recipient-name" class="control-label">Your email:</label>
+	            <input type="text" class="form-control" id="recipient-name">
+	          </div>
+	          <!--<div class="form-group">
+	            <label for="message-text" class="control-label">Why you're excited (optional):</label>
+	            <textarea class="form-control" id="message-text"></textarea>
+	          </div> -->
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+	        <button type="button" class="btn btn-primary">Sign me up</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- END email modal -->
+
+    <!-- jQuery -->
+    <script src="{{ "/assets/vendor/jquery/jquery.min.js" | relative_url }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "/assets/vendor/bootstrap/js/bootstrap.min.js" | relative_url }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{{ "/assets/js/jqBootstrapValidation.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/contact_me.js" | relative_url }}"></script>
+
+    <!-- Theme JavaScript includes the single modal js to use one modal with many stations -->
+    <script src="{{ "/assets/js/agency.min.js" | relative_url }}"></script>
+
+
+<!-- Smag Below is the Minima footer code 
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>  -->
