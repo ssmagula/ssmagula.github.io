@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Awards
+title: AWARDS
 flytitle: 
 hed: Awards, honors & publications
 dek: What others are saying about Stefan
