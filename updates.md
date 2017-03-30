@@ -1,8 +1,8 @@
 ---
 layout: page
-flytitle:  
-hed: Hydrogen Updates
-dek: HydrogeNXT company announcements, whitepapers, and clean energy links
+flytitle: What's happening
+hed: News & Updates
+dek: Notes on product management, technology, and design
 permalink: blog
 
 ---

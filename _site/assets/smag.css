@@ -117,9 +117,9 @@ h1, h2, h3, h4, h5, h6 {
   border-color: transparent; }
   .navbar-custom .navbar-brand {
     color: #F02311;
-    width: 181px;
-    height: 41px;
-    background: transparent url("../assets/img//logos/logo_red_1X.png") left top no-repeat;
+    width: 66px;
+    height: 26px;
+    background: transparent url("../assets/img//logos/logo_red_.5X.png") left top no-repeat;
     /* @include script-font; */ }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
       color: #c21b0c; }
@@ -135,9 +135,10 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
       background-color: #F02311; }
   .navbar-custom .nav li a {
+    font-size: 1.1em;
     font-family: "Oswald", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: white; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #F02311;
@@ -169,8 +170,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: padding 0.4s;
     border: none; }
     .navbar-custom .navbar-brand {
-      width: 271px;
-      height: 60px;
+      width: 130px;
+      height: 52px;
       background: transparent url("../assets/img//logos/logo_red_1X.png") left top no-repeat;
       font-size: 2em;
       -webkit-transition: all 0.4s;
@@ -188,9 +189,9 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transition: all 0.4s;
     transition: all 0.4s; }
     .navbar-custom.affix .navbar-brand {
-      width: 181px;
-      height: 41px;
-      background: transparent url("../assets/img//logos/logo_red_.5X.png") left top no-repeat; } }
+      width: 130px;
+      height: 52px;
+      background: transparent url("../assets/img//logos/logo_red_1X.png") left top no-repeat; } }
 header {
   background-image: url("../assets/img//header-bg.png");
   background-repeat: no-repeat;

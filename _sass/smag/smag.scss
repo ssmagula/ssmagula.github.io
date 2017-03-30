@@ -89,9 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: $theme-primary;
-		width: 181px;
-		height: 41px;
-		background:transparent url('../assets/img//logos/logo_red_1X.png') left top no-repeat;
+		width: 66px;
+		height: 26px;
+		background:transparent url('../assets/img//logos/logo_red_.5X.png') left top no-repeat;
         /* @include script-font; */
         &:hover,
         &:focus,
@@ -117,9 +117,10 @@ h1, h2, h3, h4, h5, h6 {
     .nav {
         li {
             a {
+				font-size: 1.1em;
                 @include heading-font;
                 font-weight: 400;
-                letter-spacing: 1px;
+                letter-spacing: 2px;
                 color: white;
                 &:hover,
                 &:focus {
@@ -161,8 +162,8 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.4s;
         border: none;
         .navbar-brand {
-			width: 271px;
-			height: 60px;
+			width: 130px;
+			height: 52px;
 			background:transparent url('../assets/img//logos/logo_red_1X.png') left top no-repeat;
             font-size: 2em;
             -webkit-transition: all 0.4s;
@@ -186,9 +187,9 @@ h1, h2, h3, h4, h5, h6 {
         -moz-transition: all 0.4s;
         transition: all 0.4s;
         .navbar-brand {
-			width: 181px;
-			height: 41px;
-			background:transparent url('../assets/img//logos/logo_red_.5X.png') left top no-repeat;
+			width: 130px;
+			height: 52px;
+			background:transparent url('../assets/img//logos/logo_red_1X.png') left top no-repeat;
         }
     }
 }
