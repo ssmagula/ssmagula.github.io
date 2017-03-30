@@ -362,7 +362,7 @@ section {
         content: "";
         width: 2px;
         background-color: #f1f1f1;
-        left: 40px;
+        left: 20px;
         margin-left: -1.5px;
     }
     > li {
@@ -399,14 +399,14 @@ section {
         .timeline-image {
             left: 0;
             margin-left: 0;
-            width: 80px;
-            height: 80px;
+            width: 40px; // Smag: was 80px
+            height: 40px; // Smag: was 80px
             position: absolute;
             z-index: 100;
             background-color: $theme-primary;
             color: white;
             border-radius: 100%;
-            border: 7px solid #f1f1f1;
+            border: 5px solid #f1f1f1; // Smag: was 7px
             text-align: center;
             h4 {
                 font-size: 10px;
@@ -467,10 +467,10 @@ section {
                 text-align: right;
             }
             .timeline-image {
-                width: 100px;
-                height: 100px;
+                width: 50px; // Smag: was 100px
+                height: 50px; // Smag: was 100px
                 left: 50%;
-                margin-left: -50px;
+                margin-left: -25px; // Smag: was 50px
                 h4 {
                     font-size: 13px;
                     margin-top: 16px;
@@ -494,9 +494,9 @@ section {
                 padding: 0 20px 20px;
             }
             .timeline-image {
-                width: 150px;
-                height: 150px;
-                margin-left: -75px;
+                width: 75px; // Smag: was 150px
+                height: 75px; // Smag: was 150px
+                margin-left: -40px; // Smag: was 75px
                 h4 {
                     font-size: 18px;
                     margin-top: 30px;
