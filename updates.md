@@ -1,6 +1,6 @@
 ---
 layout: page
-flytitle: What's happening
+flytitle:
 hed: News & Updates
 dek: Notes on product management, technology, and design
 permalink: blog

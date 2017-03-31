@@ -590,7 +590,7 @@ section#contact {
     ::-webkit-input-placeholder {
        @include heading-font;
        font-weight: 700;
-       color: $gray-lighter;
+       color: $gray-dark;
     }
     :-moz-placeholder { /* Firefox 18- */
        @include heading-font;
