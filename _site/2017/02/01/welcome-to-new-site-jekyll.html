@@ -14,7 +14,7 @@
 	
 	<!-- Smag this is page title or else site title -->
     <title>Notes on the new site</title>
-    <meta name="description" content="YOU WILL FIND this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ...">
+    <meta name="description" content="YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. I have my Jekyll server running locally, and it’s set up such that...">
 
     
     <!-- Bootstrap Core CSS Smag: should I set this as an asset? Or leave as is? -->
@@ -190,9 +190,19 @@
 					<img src="http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg" class="img-responsive">
 					
 					  <div class="body"> <!-- SMAG: body class sets margin-top and line-height -->
-						  <p>YOU WILL FIND this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+						  <p>YOU WILL FIND this post in your <code class="highlighter-rouge">_posts</code> directory, if you’re managing a Jekyll-backed site. I have my Jekyll server running locally, and it’s set up such that every edit I make to this file, or any file, will trigger Jekyll to rebuild or regenerate the site, with the changes I made incorporated. When I first heard about static site generators, I was a bit confused. If this was possible all along, why had we not been using static site generators earlier, was one of my questions. Turns out the answer is: because we didn’t really know it was so much better! At least that’s how I feel.</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>This site is hosted using Github Pages, which makes hosting Jekyll sites relatively painless and easy, not to mention very cost-effective.</p>
+
+<p>You can rebuild the site locally in many different ways, before you do:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+
+<p>to publish the site to Github.io.</p>
+
+<p>There are many ways to generate the site, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates the site when any file is updated.</p>
+
+<p>To add new posts to your blog, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
 <p>Jekyll also offers powerful support for code snippets:</p>
 
@@ -234,7 +244,7 @@
 			<div class="news article-list" style="text-align: left">	
 			    
 			      <div>
-					<div class="flytitle" style="padding:5px 0px; font-size:1em">Just getting started here</div>
+					<div class="flytitle" style="padding:5px 0px; font-size:1em">Going from an idea to happy users</div>
 			        <a href="/2017/02/12/hello-world.html"><p class="title h5">Hello world</p></a>
 					<p class="text-muted text-small">Feb 12, 2017</p>
 					<hr>
@@ -272,12 +282,12 @@
 
 			<div class="col-lg-5 col-sm-5">
 				<div class="flytitle" style="padding-bottom:10px; font-size:1.1em">
-					Just getting started here
+					Going from an idea to happy users
 				</div>
 				<a href="/2017/02/12/hello-world.html">
 					<span class="title h3">Hello world</span>
 				</a>
-						<p style="font-size:1.1em">IN THE TRADITION familiar to self-taught coders and programmers everywhere, first attempts are called: Hello World. If you power up at a HydrogeNXT hydrogen station. Enough methane is...</p>
+						<p style="font-size:1.1em">THIS STUB IS standing in for an article that I plan to write about my perspective on lean, agile, iterative product management and design, having seen these methods...</p>
 					<span>
 						Stefan Smagula</span>, <span>Feb 12, 2017
 					</span>
@@ -299,7 +309,7 @@
 				<a href="/2017/02/01/welcome-to-new-site-jekyll.html">
 					<span class="title h3">Notes on the new site</span>
 				</a>
-						<p style="font-size:1.1em">YOU WILL FIND this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in...</p>
+						<p style="font-size:1.1em">YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. I have my Jekyll server running locally, and it’s set up such that...</p>
 					<span>
 						Stefan Smagula</span>, <span>Feb 1, 2017
 					</span>
@@ -311,7 +321,7 @@
 </section>
 	</div>
 
-            <!-- What We Do Section -->
+            <!-- What I Do Section -->
     <section id="what" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -348,7 +358,7 @@
             </div>
         </div>
     </section>
-	<!-- END What We Do Section --> 
+	<!-- END What I Do Section --> 
     
     <footer>
         <div class="container">
@@ -385,7 +395,7 @@
     <!-- Portfolio Modal Window -->
     <!-- This is the container for a dynamic modal window that showcases details about each featured whitepaper-->
 
-	<div class="modal fade" id="stationModal" tabindex="-1" role="dialog" aria-labelledby="stationModalLabel" aria-hidden="true">
+	<div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalLabel" aria-hidden="true">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -395,7 +405,7 @@
 			<h3 class="modal-title" id="exampleModalLabel"></h3> <!-- Smag: modal js will insert title here-->
 	      </div>
 	      <div class="modal-body">
-			<img class="img-responsive" id="image" src="" alt="station image" longdescrip="The image of a hydrogenxt station">
+			<img class="img-responsive" id="image" src="" alt="card image" longdescrip="The image for a card">
 			<p class="caption text-muted" id="caption"></p>
 			<p class="text-muted" id="descrip"></p>  
 	      </div>
@@ -415,8 +425,8 @@
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:2em;">&times;</span></button>
-	        <h3 class="modal-title" id="emailModalLabel">Sign up for our newsletter</h3>
-			<p>BE THE FIRST to learn about our mobile apps for reserving hydrogen, promotions, and station grand openings. We'll only send occasional updates and you can opt out anytime. Together we'll get there faster. <a href="#">Privacy policy</a>.
+	        <h3 class="modal-title" id="emailModalLabel">Sign up for my newsletter</h3>
+			<p>I PLAN TO SEND occasional newsletters on the topics of product management and product design. <a href="#">My privacy policy is simple: I won't share your info with anyone</a>.
 			</p>
 	      </div>
 	      <div class="modal-body">
