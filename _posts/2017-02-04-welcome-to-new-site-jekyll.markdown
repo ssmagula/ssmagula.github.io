@@ -4,7 +4,7 @@ flytitle: Incantations
 title:  Notes on this new site
 comments: true
 dek: Some notes on how this site is assembled in .22 seconds by a series of scripts and codes
-date:   2017-02-01 20:27:14 -0600
+date:   2017-04-01 09:27:14 -0600
 categories:
 author: "Stefan Smagula"
 img-large: http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg

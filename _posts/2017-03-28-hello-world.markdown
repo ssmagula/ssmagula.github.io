@@ -4,7 +4,7 @@ flytitle: Do you read me, HAL?
 title:  "Hello world"
 dek: Introducing a series of articles about product management and product design at companies gigantic and tiny
 comments: false
-date:   2017-02-12 20:27:14 -0600
+date:   2017-04-01 09:27:14 -0600
 categories: 
 author: "Stefan Smagula"
 img-large: http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170211_STP005_0.jpg

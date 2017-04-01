@@ -13,8 +13,8 @@
     <meta name="author" content="Stefan Smagula">
 	
 	<!-- Smag this is page title or else site title -->
-    <title>Hello world</title>
-    <meta name="description" content="THIS STUB IS standing in for an article that I plan to write about my perspective on agile, iterative product management and design, having seen these method...">
+    <title>Notes on this new site</title>
+    <meta name="description" content="YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. Jekyll is a static site generator, written in Ruby. Here’s how it ...">
 
     
     <!-- Bootstrap Core CSS Smag: should I set this as an asset? Or leave as is? -->
@@ -22,7 +22,7 @@
 
 	
 	<!-- Smag: this is Jekyll code for ??? and site title for RSS feed -->
-    <link rel="canonical" href="http://localhost:4000/2017/02/12/hello-world.html">
+    <link rel="canonical" href="http://localhost:4000/2017/04/01/welcome-to-new-site-jekyll.html">
     <link rel="alternate" type="application/rss+xml" title="Stefan Smagula Portfolio" href="/feed.xml">
 
     <!-- Custom Fonts Smag: Should I create assets? -->
@@ -174,15 +174,47 @@
 		<div class="row">
 			<div class="article col-lg-6 col-lg-offset-2 col-sm-6 col-sm-offset-2 body">
 				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-					<div class="flytitle">Do you read me, HAL?</div>
-					<div class="title h1">Hello world</div>
-					<div class="dek"><p>Introducing a series of articles about product management and product design at companies gigantic and tiny</p></div>
-					<img src="http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170211_STP005_0.jpg" class="img-responsive">
+					<div class="flytitle">Incantations</div>
+					<div class="title h1">Notes on this new site</div>
+					<div class="dek"><p>Some notes on how this site is assembled in .22 seconds by a series of scripts and codes</p></div>
+					<img src="http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg" class="img-responsive">
 					
 					  <div class="body"> <!-- SMAG: body class sets margin-top and line-height -->
-						  <p>THIS STUB IS standing in for an article that I plan to write about my perspective on agile, iterative product management and design, having seen these methods in practice at resource-rich technology companies such as Google, and having seen how slightly smaller and slightly less resource-rich startups do things. Large and small companies have a lot to learn from each other, and I hope this theme will make for a useful series of articles.</p>
+						  <p>YOU WILL FIND this post in your <code class="highlighter-rouge">_posts</code> directory, if you’re managing a Jekyll-backed site. Jekyll is a static site generator, written in Ruby. Here’s how it works: you install Jekyll locally and you generate the scaffolding for a new site with a brief incantation. As you add code and content, Jekyll automatically re-generates the entire site. This process takes .22 seconds. What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you look at the list of blog posts in  <code class="highlighter-rouge">/blog</code> , or the footer of the home page, under the hood there’s a bit of embedded Ruby in the HTML and this code says: show me the 3 most recent articles and then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags.</p>
 
-<p>Please hang in there while i crank the arm of this Web engine. It should start up in a second or two…</p>
+<p>I found Jekyll’s includes and layouts easy to navigate. You put reusable code for the head, header, and footers in the includes directory, then include them into layouts you create, for example a  <code class="highlighter-rouge">page</code> layout. When you create a new instance of a <code class="highlighter-rouge">page</code>, it knows that a  <code class="highlighter-rouge">page</code> is just a slight variation on the <code class="highlighter-rouge">default</code> layout.</p>
+
+<p>When I first heard about static site generators, I was a bit confused. If this were possible, why aren’t more bloggy sites using static site generators? Turns out the answer is: because we just needed a little time to figure out how simple it is. At least that’s how I feel.</p>
+
+<p>This site is hosted using <a href="https://github.io/">Github Pages</a>, which makes hosting HTTPS sites relatively painless and easy, not to mention very cost-effective (gratis). I used the Bootstrap Agency theme for its animated fixed nav bar and nice timeline CSS. All icons are by <a href="http://FontAwesome.io/">FontAwesome</a> FontAwesome.io except for the following icons from the <a href="https://thenounproject.com/">Noun Project</a></p>
+<ul>
+  <li>Recursive triangles, Created by Bohdan Burmich</li>
+  <li>Donut chart, created by HLD</li>
+  <li>Lightbulb, created by ImageCatalog</li>
+</ul>
+
+<p>The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the inner structure of something simple, something we take for granted. It is attributed to anonymous, was created during the late 1800’s, and is currently part of the <a href="https://www.rijksmuseum.nl/en/my/collections/183512--stefan-smagula/patterns/objecten#/RP-F-F15045,0">Rijskmuseum collection</a> in Amsterdam.</p>
+
+<p>You can rebuild the site locally in many different ways, before you publish the entire site with a new incantation:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+
+<p>Simple, right?</p>
+
+<p>There are many ways to generate the site, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates the site when any file is updated.</p>
+
+<p>To add new posts to your blog, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter.</p>
+
+<p>Jekyll also offers support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
  
 						  <!-- SMAG: body of article comes with its own p tags -->
 						  
@@ -196,7 +228,7 @@
         <div class="team-member sidebar col-lg-3  col-md-3 col-sm-3">
 			<p class="text-muted">
 				
-				<time datetime="2017-02-12T20:27:14-06:00" itemprop="datePublished">Feb 12, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">By Stefan Smagula</span></span>
+				<time datetime="2017-04-01T10:27:14-05:00" itemprop="datePublished">Apr 1, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">By Stefan Smagula</span></span>
 			</p>
 	
             <ul class="list-inline social-buttons">
@@ -214,15 +246,15 @@
 			    
 			      <div>
 					<div class="flytitle" style="padding:5px 0px; font-size:1em">Do you read me, HAL?</div>
-			        <a href="/2017/02/12/hello-world.html"><p class="title h5">Hello world</p></a>
-					<p class="text-muted text-small">Feb 12, 2017</p>
+			        <a href="/2017/04/01/hello-world.html"><p class="title h5">Hello world</p></a>
+					<p class="text-muted text-small">Apr 1, 2017</p>
 					<hr>
 			      </div>			  
 			    
 			      <div>
 					<div class="flytitle" style="padding:5px 0px; font-size:1em">Incantations</div>
-			        <a href="/2017/02/01/welcome-to-new-site-jekyll.html"><p class="title h5">Notes on this new site</p></a>
-					<p class="text-muted text-small">Feb 1, 2017</p>
+			        <a href="/2017/04/01/welcome-to-new-site-jekyll.html"><p class="title h5">Notes on this new site</p></a>
+					<p class="text-muted text-small">Apr 1, 2017</p>
 					<hr>
 			      </div>			  
 			    
@@ -244,7 +276,7 @@
 		
 		<div class="row">
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-4">
-			<a href="/2017/02/12/hello-world.html">
+			<a href="/2017/04/01/hello-world.html">
 				<img src=" http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170211_STP005_0.jpg " class="img-responsive" style="margin-top:7px">
 			</a>
 			</div>
@@ -253,12 +285,12 @@
 				<div class="flytitle" style="padding-bottom:10px; font-size:1.1em">
 					Do you read me, HAL?
 				</div>
-				<a href="/2017/02/12/hello-world.html">
+				<a href="/2017/04/01/hello-world.html">
 					<span class="title h3">Hello world</span>
 				</a>
 						<p style="font-size:1.1em">THIS STUB IS standing in for an article that I plan to write about my perspective on agile, iterative product management and design, having seen these methods in...</p>
 					<span>
-						Stefan Smagula</span>, <span>Feb 12, 2017
+						Stefan Smagula</span>, <span>Apr 1, 2017
 					</span>
 				<hr>
 			</div>
@@ -266,7 +298,7 @@
 	
 		<div class="row">
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-4">
-			<a href="/2017/02/01/welcome-to-new-site-jekyll.html">
+			<a href="/2017/04/01/welcome-to-new-site-jekyll.html">
 				<img src=" http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg " class="img-responsive" style="margin-top:7px">
 			</a>
 			</div>
@@ -275,12 +307,12 @@
 				<div class="flytitle" style="padding-bottom:10px; font-size:1.1em">
 					Incantations
 				</div>
-				<a href="/2017/02/01/welcome-to-new-site-jekyll.html">
+				<a href="/2017/04/01/welcome-to-new-site-jekyll.html">
 					<span class="title h3">Notes on this new site</span>
 				</a>
 						<p style="font-size:1.1em">YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. Jekyll is a static site generator, written in Ruby. Here’s how it works:...</p>
 					<span>
-						Stefan Smagula</span>, <span>Feb 1, 2017
+						Stefan Smagula</span>, <span>Apr 1, 2017
 					</span>
 				<hr>
 			</div>
@@ -490,6 +522,14 @@
 
 </footer>  -->
 
+	
+	<!-- Smag: this ist he Intercom.com contact me js snippet -->
+	<script>
+	  window.intercomSettings = {
+	    app_id: "tmpnhy97"
+	  };
+	</script>
+	<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/tmpnhy97';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
   </body>
 
