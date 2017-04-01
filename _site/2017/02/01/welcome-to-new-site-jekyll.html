@@ -14,7 +14,7 @@
 	
 	<!-- Smag this is page title or else site title -->
     <title>Notes on this new site</title>
-    <meta name="description" content="YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. Here’s how Jekyll works: you set up a Jekyll server locally and it...">
+    <meta name="description" content="YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. Jekyll is a static site generator, written in Ruby. Here’s how it ...">
 
     
     <!-- Bootstrap Core CSS Smag: should I set this as an asset? Or leave as is? -->
@@ -88,12 +88,6 @@
 		  	        
 					<li>
 		  	          
-		  	             <a class="page-scroll" href="/honors">HONORS</a>
-		  	          
-					</li>  
-		  	        
-					<li>
-		  	          
 					</li>  
 		  	        
 					<li>
@@ -151,10 +145,6 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/honors">HONORS</a>
-          
-        
-          
         
           
         
@@ -190,31 +180,32 @@
 					<img src="http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg" class="img-responsive">
 					
 					  <div class="body"> <!-- SMAG: body class sets margin-top and line-height -->
-						  <p>YOU WILL FIND this post in your <code class="highlighter-rouge">_posts</code> directory, if you’re managing a Jekyll-backed site. Here’s how Jekyll works: you set up a Jekyll server locally and it watches your files for changes. With each change it will automatically re-generate the entire site, with the changes you just made incorporated. This takes about .22 seconds. What can you do with Jekyll? Well, anything that you can do with Ruby. If you look at the list of blog posts in  <code class="highlighter-rouge">/blog</code> , or the footer of the home page, there’s a bit of ruby code embedded in the HTML which is interpreted by Jekyll, and this code says: for each post in the posts list, show me the 3 most recent articles and then generate a 23 word excerpt and output the hed, dek, and excertp into these HTML tags.</p>
+						  <p>YOU WILL FIND this post in your <code class="highlighter-rouge">_posts</code> directory, if you’re managing a Jekyll-backed site. Jekyll is a static site generator, written in Ruby. Here’s how it works: you install Jekyll locally and you generate the scaffolding for a new site with a brief incantation. As you add code and content, Jekyll automatically re-generates the entire site. This process takes .22 seconds. What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you look at the list of blog posts in  <code class="highlighter-rouge">/blog</code> , or the footer of the home page, under the hood there’s a bit of embedded Ruby in the HTML and this code says: show me the 3 most recent articles and then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags.</p>
 
-<p>I found Jekyll’s includes and layouts easy to navigate. You put the code for your head, header, and footers in the includes directory, then include them into the layouts you create, for example a  <code class="highlighter-rouge">page</code> layout. When you create a new instance of a <code class="highlighter-rouge">page</code> , it uses the layout to determine which head, header, and footer go in there.</p>
+<p>I found Jekyll’s includes and layouts easy to navigate. You put reusable code for the head, header, and footers in the includes directory, then include them into layouts you create, for example a  <code class="highlighter-rouge">page</code> layout. When you create a new instance of a <code class="highlighter-rouge">page</code>, it knows that a  <code class="highlighter-rouge">page</code> is just a slight variation on the <code class="highlighter-rouge">default</code> layout.</p>
 
-<p>When I first heard about static site generators, I was a bit confused. If you can do away with a database connection, latency, and fix security issues in one fell swoop, why don’t more bloggy sites use static site generators? Turns out the answer is: because we just needed a little time to figure out how simple it is. At least that’s how I feel.</p>
+<p>When I first heard about static site generators, I was a bit confused. If this were possible, why aren’t more bloggy sites using static site generators? Turns out the answer is: because we just needed a little time to figure out how simple it is. At least that’s how I feel.</p>
 
-<p>This site is hosted using <a href="https://github.io/">Github Pages</a>, which makes hosting HTTPS sites relatively painless and easy, not to mention very cost-effective (gratis). The icons are by <a href="http://FontAwesome.io/">FontAwesome</a> FontAwesome.io and the following icons from <a href="https://thenounproject.com/">Noun Project</a></p>
+<p>This site is hosted using <a href="https://github.io/">Github Pages</a>, which makes hosting HTTPS sites relatively painless and easy, not to mention very cost-effective (gratis). I used the Bootstrap Agency theme for its animated fixed nav bar and nice timeline CSS. All icons are by <a href="http://FontAwesome.io/">FontAwesome</a> FontAwesome.io except for the following icons from the <a href="https://thenounproject.com/">Noun Project</a></p>
 <ul>
   <li>Recursive triangles, Created by Bohdan Burmich</li>
   <li>Donut chart, created by HLD</li>
-  <li>Lightbulb, created by ImageCatalog 
-The hero image on the home page is a photogram of what looks like pine needles. It is attributed to anonymous, and was created during the late 1800’s and is in the [Rijskmuseum collection][rijskmuseum] in Amsterdam.</li>
+  <li>Lightbulb, created by ImageCatalog</li>
 </ul>
 
-<p>You can rebuild the site locally in many different ways, before you publish the site with a few keystrokes:</p>
+<p>The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the inner structure of something simple, something we take for granted. It is attributed to anonymous, was created during the late 1800’s, and is currently part of the <a href="https://www.rijksmuseum.nl/en/my/collections/183512--stefan-smagula/patterns/objecten#/RP-F-F15045,0">Rijskmuseum collection</a> in Amsterdam.</p>
+
+<p>You can rebuild the site locally in many different ways, before you publish the entire site with a new incantation:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
 
-<p>Not bad, right?</p>
+<p>Simple, right?</p>
 
 <p>There are many ways to generate the site, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates the site when any file is updated.</p>
 
-<p>To add new posts to your blog, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>To add new posts to your blog, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>Jekyll also offers support for code snippets:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
   <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
@@ -254,7 +245,7 @@ The hero image on the home page is a photogram of what looks like pine needles. 
 			<div class="news article-list" style="text-align: left">	
 			    
 			      <div>
-					<div class="flytitle" style="padding:5px 0px; font-size:1em">Going from an idea to happy users</div>
+					<div class="flytitle" style="padding:5px 0px; font-size:1em">Do you read me, HAL?</div>
 			        <a href="/2017/02/12/hello-world.html"><p class="title h5">Hello world</p></a>
 					<p class="text-muted text-small">Feb 12, 2017</p>
 					<hr>
@@ -292,12 +283,12 @@ The hero image on the home page is a photogram of what looks like pine needles. 
 
 			<div class="col-lg-5 col-sm-5">
 				<div class="flytitle" style="padding-bottom:10px; font-size:1.1em">
-					Going from an idea to happy users
+					Do you read me, HAL?
 				</div>
 				<a href="/2017/02/12/hello-world.html">
 					<span class="title h3">Hello world</span>
 				</a>
-						<p style="font-size:1.1em">THIS STUB IS standing in for an article that I plan to write about my perspective on lean, agile, iterative product management and design, having seen these methods...</p>
+						<p style="font-size:1.1em">THIS STUB IS standing in for an article that I plan to write about my perspective on agile, iterative product management and design, having seen these methods in...</p>
 					<span>
 						Stefan Smagula</span>, <span>Feb 12, 2017
 					</span>
@@ -319,7 +310,7 @@ The hero image on the home page is a photogram of what looks like pine needles. 
 				<a href="/2017/02/01/welcome-to-new-site-jekyll.html">
 					<span class="title h3">Notes on this new site</span>
 				</a>
-						<p style="font-size:1.1em">YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. Here’s how Jekyll works: you set up a Jekyll server locally and it...</p>
+						<p style="font-size:1.1em">YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll-backed site. Jekyll is a static site generator, written in Ruby. Here’s how it works:...</p>
 					<span>
 						Stefan Smagula</span>, <span>Feb 1, 2017
 					</span>
@@ -347,7 +338,8 @@ The hero image on the home page is a photogram of what looks like pine needles. 
                         <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Traders, bankers, chainsaw salesmen</h4>
-                    <p class="text-muted">From a $100 M project to help invent <cite>Bloomberg NEXT</cite>, to geo-targeting all of Google's local ads, I've helped to create iconic software.</p> <a href="/trailer.html " class="btn btn-primary" style="margin-bottom:60px"><i class="fa fa-video-camera"></i> Learn more</a>
+                    <p class="text-muted">From <cite>Bloomberg NEXT</cite>, to geo-targeting at Google, to mobile apps for electric car drivers, I've worked on software for professionals and consumers.</p>
+					<!-- <a href="/trailer.html " class="btn btn-primary" style="margin-bottom:60px"><i class="fa fa-video-camera"></i> Learn more</a> -->
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -355,7 +347,8 @@ The hero image on the home page is a photogram of what looks like pine needles. 
                         <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Product management and design</h4>
-                    <p class="text-muted">At Google I helped Docs and Drive focus on understandability and collaboration. Recently I've served as product lead at companies in Austin.</p><a href="/reservations.html" class="btn btn-primary" style="margin-bottom:60px"><i class="fa fa-video-camera"></i> See Examples</a>
+                    <p class="text-muted">I research, validate, and prioritize efforts so teams can focus on highest value, lowest complexity work. My background is in UX and product design.</p>
+					<!-- <a href="/reservations.html" class="btn btn-primary" style="margin-bottom:60px"><i class="fa fa-video-camera"></i> See Examples</a> -->
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -363,8 +356,10 @@ The hero image on the home page is a photogram of what looks like pine needles. 
                         <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Extending our abilities</h4>
-                    <p class="text-muted">Douglas Englebart and Vannevar Bush demonstrated that software can augment human intelligence. It's this spirit of invention that inspires me. </p><button class="btn btn-primary" style="margin-bottom:60px" data-toggle="modal" data-target="#emailModal" data-message="Hello message here">Get in touch</button>
+                    <p class="text-muted">Douglas Englebart and Vannevar Bush demonstrated that software can extend our minds. It's this spirit of invention that inspires me.</p>
+					<!-- <button class="btn btn-primary" style="margin-bottom:60px" data-toggle="modal" data-target="#emailModal" data-message="Hello message here">Get in touch</button> -->
                 </div>
+				<a href="/index.html#contact" class="btn btn-primary" style="margin:30px 0px" ><i class="fa fa-envelope"></i> Get in touch</a>
             </div>
         </div>
     </section>
@@ -392,9 +387,8 @@ The hero image on the home page is a photogram of what looks like pine needles. 
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Legal</a>
+                        <li>
+							<a href="/index.html#contact ">Contact</a>
                         </li>
                     </ul>
                 </div>
