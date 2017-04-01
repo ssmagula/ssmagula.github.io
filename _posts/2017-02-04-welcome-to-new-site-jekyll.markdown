@@ -20,6 +20,7 @@ This site is hosted using [Github Pages][github-pages], which makes hosting HTTP
  * Recursive triangles, Created by Bohdan Burmich 
  * Donut chart, created by HLD 
  * Lightbulb, created by ImageCatalog 
+The hero image on the home page is a photogram of what looks like pine needles. It is attributed to anonymous, and was created during the late 1800's and is in the [Rijskmuseum collection][rijskmuseum] in Amsterdam.
 
 You can rebuild the site locally in many different ways, before you publish the site with a few keystrokes:
 {% highlight ruby %}
@@ -43,6 +44,7 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+[rijksmuseum]: https://www.rijksmuseum.nl/en/my/collections/183512--stefan-smagula/patterns/objecten#/RP-F-F15045,0
 [noun-project]: https://thenounproject.com/
 [font-awesome]: http://FontAwesome.io/
 [github-pages]: https://github.io/
