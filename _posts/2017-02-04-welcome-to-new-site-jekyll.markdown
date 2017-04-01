@@ -12,7 +12,10 @@ img-small: http://cdn.static-economist.com/sites/default/files/imagecache/200-wi
 ---
 YOU WILL FIND this post in your `_posts` directory, if you're managing a Jekyll-backed site. I have my Jekyll server running locally, and it's set up such that every edit I make to this file, or any file, will trigger Jekyll to rebuild or regenerate the site, with the changes I made incorporated. When I first heard about static site generators, I was a bit confused. If this was possible all along, why had we not been using static site generators earlier, was one of my questions. Turns out the answer is: because we didn't really know it was so much better! At least that's how I feel.
 
-This site is hosted using Github Pages, which makes hosting Jekyll sites relatively painless and easy, not to mention very cost-effective.
+This site is hosted using Github Pages, which makes hosting Jekyll sites relatively painless and easy, not to mention very cost-effective. The icons are by FontAwesome.com and the following
+ # Recursive triangels, Created by Bohdan Burmich, from the Noun Project
+ # Donut chart, created by HLD, from the Noun Project
+ # Lightbulb, created by ImageCatalog, from the Noun Project
 
 You can rebuild the site locally in many different ways, before you do:
 {% highlight ruby %}
