@@ -16,6 +16,14 @@ body {
     color: $theme-primary;
 }
 
+.text-secondary {
+	color: $theme-secondary;
+}
+
+.text-danger {
+	color: $theme-danger;
+}
+
 .text-heading {
 	color: $gray-darker;
 }

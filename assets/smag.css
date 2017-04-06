@@ -8,6 +8,12 @@ body {
 .text-primary {
   color: #F02311; }
 
+.text-secondary {
+  color: #FBB829; }
+
+.text-danger {
+  color: #1693A5; }
+
 .text-heading {
   color: #222222; }
 
