@@ -99,10 +99,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;
     border-color: transparent;
     .navbar-brand {
+		margin-top: 10px;
         color: $theme-primary;
-		width: 66px;
-		height: 26px;
-		background:transparent url('../assets/img//logos/logo_red_.5X.png') left top no-repeat;
+		width: 93px;
+		height: 37px;
+		background:transparent url('../assets/img//logos/logo_red_37px.png') left top no-repeat;
         /* @include script-font; */
         &:hover,
         &:focus,
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
         .navbar-brand {
 			width: 130px;
 			height: 52px;
-			background:transparent url('../assets/img//logos/logo_red_1X.png') left top no-repeat;
+			background:transparent url('../assets/img//logos/logo_red_46px.png') left top no-repeat;
         }
     }
 }

@@ -125,10 +125,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #222222;
   border-color: transparent; }
   .navbar-custom .navbar-brand {
+    margin-top: 10px;
     color: #F02311;
-    width: 66px;
-    height: 26px;
-    background: transparent url("../assets/img//logos/logo_red_.5X.png") left top no-repeat;
+    width: 93px;
+    height: 37px;
+    background: transparent url("../assets/img//logos/logo_red_37px.png") left top no-repeat;
     /* @include script-font; */ }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
       color: #c21b0c; }
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom.affix .navbar-brand {
       width: 130px;
       height: 52px;
-      background: transparent url("../assets/img//logos/logo_red_1X.png") left top no-repeat; } }
+      background: transparent url("../assets/img//logos/logo_red_46px.png") left top no-repeat; } }
 header {
   background-image: url("../assets/img//header-bg.png");
   background-repeat: no-repeat;
