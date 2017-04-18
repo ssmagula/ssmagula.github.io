@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-brand {
 		margin-top: 10px;
         color: $theme-primary;
-		width: 93px;
+		width: 82px;
 		height: 37px;
 		background:transparent url('../assets/img//logos/logo_red_37px.png') left top no-repeat;
         /* @include script-font; */
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
         border: none;
         .navbar-brand {
 			width: 130px;
-			height: 52px;
+			height: 59px;
 			background:transparent url('../assets/img//logos/logo_red_1X.png') left top no-repeat;
             font-size: 2em;
             -webkit-transition: all 0.4s;
@@ -199,9 +199,9 @@ h1, h2, h3, h4, h5, h6 {
         -moz-transition: all 0.4s;
         transition: all 0.4s;
         .navbar-brand {
-			width: 130px;
-			height: 52px;
-			background:transparent url('../assets/img//logos/logo_red_46px.png') left top no-repeat;
+			width: 66px;
+			height: 30px;
+			background:transparent url('../assets/img//logos/logo_red_30px.png') left top no-repeat;
         }
     }
 }
