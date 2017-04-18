@@ -40,12 +40,12 @@ Because there's no database in the backend, there's reduced complexity, increase
 When I first heard about static site generators, I was a bit confused. If this were possible, why aren't more bloggy sites using static site generators? Turns out the answer is: because we just needed a little time to figure out how simple it is. At least that's how I feel.
 
 #### CREDITS
-This site is hosted using [Github Pages][github-pages], which makes hosting HTTPS sites relatively painless and easy, not to mention very cost-effective (gratis). I used the Bootstrap Agency theme for its animated fixed nav bar and nice timeline CSS. All icons are by [FontAwesome][font-awesome] from time to time I use the following icons from the [Noun Project][noun-project]
+This site is hosted using [Github Pages][github-pages], which makes hosting HTTPS sites relatively painless and easy, not to mention very cost-effective (gratis). I used the Bootstrap Agency theme for its animated fixed nav bar and nice timeline CSS. All icons are by [FontAwesome][font-awesome], and from time to time I use the following icons from the [Noun Project][noun-project]
  * Recursive triangles, Created by Bohdan Burmich 
  * Donut chart, created by HLD 
  * Lightbulb, created by ImageCatalog 
  
-The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the inner structure of something simple, something we take for granted. It is attributed to anonymous, was created during the late 1800's, and is currently part of the [Rijskmuseum collection][rijksmuseum] in Amsterdam.
+The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the rhythm, inner structure of something simple, something we take for granted. It is "Dennenaalden, anonymous, 1840 - 1845" and is part of the [Rijskmuseum collection][rijksmuseum] in Amsterdam.
 
 #### REBUILDING AND PUBLISHING
 You can rebuild the site locally in many different ways, but using the --watch flag is simple. When you're ready, you publish the entire site with a new incantation:
@@ -54,9 +54,7 @@ git push -u origin master
 {% endhighlight %}
 Simple, right? 
 
-There are many ways to generate the site, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates the site when any file is updated.
-
-To add new posts to your blog, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter.  
+To add new posts to your blog, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter.
 
 Jekyll also offers support for code snippets:
 
