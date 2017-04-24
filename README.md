@@ -1,12 +1,14 @@
 # Understanding this site
 
-This site is is a container for product management and design case studies and blog posts by Stefan Smagula. You can see the site here: [Stefan Smagula Case Studies](https://ssmagula.github.io)
+This site is is a place for product management and design case studies and articles by Stefan Smagula. See the site here: [Stefan Smagula Case Studies](https://ssmagula.github.io)
 
 ## TODO
+- Hookup SASS 'asset pipeline' so I don't have to manually rebuild the css files
 - Implement pagination on list of posts
-- Figure out way to archive posts by month or quarter
+- Figure out way to archive posts by month or quarter?
 - Get social media addresses rendered from an include
 - Write and design a full-page case study page
+- Write more case articles
 - More!
 
 ## DONE!
@@ -18,7 +20,7 @@ This site is is a container for product management and design case studies and b
 
 ## Credits
 
-This site is made with [Jekyll.rb](jekyllrb.com), used a Bootstrap theme called Agency as a starting point, and it even includes SASS, FontAwesome icons, and occasionally some SVG icons from Noun Project.
+This site is made with [Jekyll.rb](jekyllrb.com) and used a Bootstrap theme called Agency as a starting point. It even includes SASS, FontAwesome icons, and occasionally some SVG icons from Noun Project.
     
 
 ## Usage
