@@ -1,34 +1,30 @@
 # Understanding this site
 
-This site is based on a Bootstrap theme called Agency. It contains placeholder content, images, text, etc. I took the default theme for Jekyll, called Minima, and merged that with a new (my first) Jekyll theme. I did it by running `jekyll new` and then looking at the structure of the includes, layouts, posts, and pages, and seeing how assets like CSS and JS need to be included. It was daunting at first, but quickly made sense as I fiddled with it. I recommend this approach (Bootstrap theme, then merge it with Jekyll theme, then develop a Jekyll site)
-to others, like me, who want speedy and easy to maintain sites with changing content. —Stefan Smagula
-
-Here's what I started with, which is nothing like what I ended up with! ![minima theme preview](/screenshot.png)
+This site is is a container for product management and design case studies and blog posts by Stefan Smagula. You can see the site here: [Stefan Smagula Case Studies](https://ssmagula.github.io)
 
 ## TODO
-- Implement pagination on the /news.html list of articles
-- Figure out a way to automatically archive articles by month or quarter
-- Get Google Analytics installed
+- Implement pagination on list of posts
+- Figure out way to archive posts by month or quarter
 - Get social media addresses rendered from an include
-- Design and implement person profile pages
-- Improve the station details modal
-- Get real data for station details modals
-- Add all stations to the map
-- Investigage using map as hero image
-- Investigate dynamic geocoding of station addresses
-- Figure out how to process images automatically (if needed?)
+- Write and design a full-page case study page
 - More!
 
+## DONE!
+- Get Google Analytics installed
+- Make modals use data (makes all modals easier to edit)
+- Investigage using map as hero image (distracting)
+- Implemented a person profile page (used timeline)
+- Figure out how to process images automatically (Bootstrap img-relative)
 
-## Description
+## Credits
 
-This is a marketing site that is powered by [Jekyll.rb](jekyllrb.com) and Bootstrap.
+This site is made with [Jekyll.rb](jekyllrb.com), used a Bootstrap theme called Agency as a starting point, and it even includes SASS, FontAwesome icons, and occasionally some SVG icons from Noun Project.
     
 
 ## Usage
-I don't intend for anyone to use or install this site or theme, I'm just parking it here for now. All rights reserved. Copyright 2017 etc.
+To use this site/blog as the basis for your own, install Jekyll then clone this repository. See more Jekyll how-to links in the "Making this site post" in the blog. Feel free to use this Bootstrap + Jekyll blog site as the basis for your own, but take a look at the TODO's above. It's semi-done.
 
-### Customization of the default Jekyll theme (Minima)
+## Boilerplate notes from the default Jekyll installation (Minima theme)
 
 To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
 e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
@@ -80,9 +76,6 @@ To enable Google Anaytics, add the following lines to your Jekyll site:
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
-## Contributing
-
-Bug reports and pull requests that relate to the Minima theme (the default) are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
@@ -90,6 +83,4 @@ To set up your environment to develop this theme, run `bundle install`.
 
 To test your theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/minima/`. This starts a Jekyll server using your theme and the contents of the `example/` directory. As you make modifications to your theme and to the example site, your site will regenerate and you should see the changes in the browser after a refresh.
 
-## License
 
-This theme and site are not public domain.
