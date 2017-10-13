@@ -1,5 +1,6 @@
+<section id="what" class="bg-light-gray">
     {% include what.html %} 
-    
+</section>
     <footer>
         <div class="container">
             <div class="row">
@@ -13,14 +14,7 @@
 					</span>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/ojala"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="https://facebook.com/stefansmagula"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+					{% include social_buttons.html %}
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
@@ -130,8 +124,9 @@
             {% endif %}
         </ul>
       </div>
+-->
 
-      <div class="footer-col footer-col-2">
+<!-- <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>

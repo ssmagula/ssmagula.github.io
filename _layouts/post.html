@@ -29,16 +29,7 @@ layout: default
 				
 				<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">By {{ page.author }}</span></span>{% endif %}
 			</p>
-	
-            <ul class="list-inline social-buttons">
-                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-            </ul>
-			
+			{% include social_buttons.html %}
 			<!-- Smag commenting out sidebar 
 			<h5 class="section-heading" style="margin:30px 0px 10px 0px">Recent Posts</h5>
 			<div class="news article-list" style="text-align: left">	

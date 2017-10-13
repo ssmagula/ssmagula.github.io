@@ -327,18 +327,9 @@ layout: default_home
 	                    <div class="team-member">
 	                        <img src="{{ "/assets/img/about/smag_head_penguins_200px.png" | relative_url }}" class="img-responsive img-circle" alt="">
 	                        <h4>Stefan Smagula</h4>
-	                        <p class="text-muted">Product Manager</br>
-							Stefan has created new products at startups and at companies such as Bloomberg and Google. He lives in Austin and has degrees from The Univ. of Texas at Austin and Yale. <a href="profile.html">More info</a></p>
-	                        <ul class="list-inline social-buttons">
-	                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-	                            </li>
-	                           <!-- 
-								   <li><a href="#"><i class="fa fa-instagram"></i></a>
-	                           	   </li> 
-								-->
-	                            <li><a href="https://www.linkedin.com/in/smagula"><i class="fa fa-linkedin"></i></a>
-	                            </li>
-	                        </ul>
+	                        <p class="text-muted">Software Product + Design</br>
+							Stefan has helped to create successful new products at companies such as Bloomberg and Google. He lives in Austin and has degrees from The Univ. of Texas at Austin and Yale. <a href="profile.html">More about Stefan</a></p>
+							{% include social_buttons.html %}
 	                    </div>
 	                </div>
 	            </div>
@@ -355,50 +346,7 @@ layout: default_home
 	
     <!-- What I Do Section -->
     <section id="what">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">To 'Augment Human Intelligence'</h2>
-                    <h3 class="section-subheading text-muted">My goal is to help create software that extends our hands and minds and improves people's lives</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Traders, bankers, chainsaw salesmen</h4>
-                    <p class="text-muted">From <cite>Bloomberg NEXT</cite>, to geo-targeting at Google, to mobile apps for electric car drivers, I've worked on software for professionals and consumers.</p> 
-					<!-- 				
-					<a href="{{ "/trailer.html" | relative_url }} " class="btn btn-primary" style="margin-bottom:60px"><i class="fa fa-video-camera"></i> Learn more
-					</a>
-					-->
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Product management and design</h4>
-                    <p class="text-muted">I research, validate, and prioritize efforts so teams can focus on highest value, lowest complexity work. My background is in UX and product design.</p>
-					<!-- <a href="{{ "/reservations.html" | relative_url }}" class="btn btn-primary" style="margin-bottom:60px"><i class="fa fa-video-camera"></i> See Examples
-					</a>
-					-->
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Extensions of hand and mind</h4>
-                    <p class="text-muted">Douglas Englebart and Vannevar Bush demonstrated that software can extend our minds. It's this spirit of invention that inspires me. </p>
-					<!--
-					<button class="btn btn-primary" style="margin-bottom:60px" data-toggle="modal" data-target="#emailModal" data-message="Hello message here">Get in touch</button>
-					-->
-                </div>
-            </div>
-        </div>
+		{% include what.html %}
     </section>
 	<!-- END What I Do Section -->
 
@@ -408,7 +356,7 @@ layout: default_home
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Drop me a line</h2>
-                    <h3 class="section-subheading text-muted">I'm looking for ways to contribute to creative, socially redeeming organizations in Austin, Texas</h3>
+                    <h3 class="section-subheading text-muted">I'm looking for ways to contribute to creative organizations in Austin, Texas</h3>
                 </div>
 				<div class="col-md-3 col-md-offset-3 col-sm-3 text-muted">
 					<h5 class="text-muted">Contact </h5>
@@ -418,7 +366,7 @@ layout: default_home
 				</div>
 				<div class="col-md-3 col-sm-3 text-muted">
 					<h5 class="text-muted">Let's meet</h5>
-					<p><i class="fa  fa-coffee"></i> Let's get coffee and we can talk more</p>
+					<p><i class="fa  fa-coffee"></i> Let's get coffee and chat</p>
 				</div>
             </div>
 			

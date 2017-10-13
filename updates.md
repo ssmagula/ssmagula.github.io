@@ -32,14 +32,7 @@ permalink: blog
 	</div>
 	{% endfor %}
 	<div class="team-member col-md-4 col-md-offset-4 text-center" style="margin-top:50px"> <!-- TODO: put this into stylesheet properly -->
-		<ul class="list-inline social-buttons">
-			<li><a href="#"><i class="fa fa-twitter"></i></a>
-			</li>
-			<li><a href="#"><i class="fa fa-facebook"></i></a>
-			</li>
-			<li><a href="#"><i class="fa fa-linkedin"></i></a>
-			</li>
-		</ul>
+		{% include social_buttons.html %}
 		<div class="text-muted" style="margin-top: 20px">
 		Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
 		</div>
