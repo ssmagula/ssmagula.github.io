@@ -2,11 +2,12 @@
 
 // Gray and Brand Colors for use across theme
 
-$theme-primary:    #F02311; // Smag: This is a red, was goldenrod #fed136
-$theme-secondary:  #FBB829; // Smag: this is dullish orange
-$theme-danger:     #1693A5; // Smag: this is French worker's blue
+$theme-primary:    #CF4647;  // Smag: This is a muted red, was bright red #F02311; goldenrod #fed136
+$theme-secondary:  #EB7B59; // Smag: this is dullish orange. Was another orange #FBB829;
+$theme-danger:     #A7C5BD; // Smag: this is color of sea glass; was French worker's blue #1693A5; 
+$theme-calm:       #524756; // Smag: this is the dark plum color of the hero img
 
-$gray-base:			#000 !default;
+$gray-base:			#000 !default;  
 $gray-darker:		lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:			lighten($gray-base, 20%) !default;   // #333
 $gray:				lighten($gray-base, 33.5%) !default; // #555

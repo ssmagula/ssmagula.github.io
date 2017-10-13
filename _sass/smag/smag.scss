@@ -96,14 +96,14 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-custom {
-    background-color: $gray-darker;
+    background-color: $gray-darker;  
     border-color: transparent;
     .navbar-brand {
 		margin-top: 10px;
         color: $theme-primary;
-		width: 82px;
-		height: 37px;
-		background:transparent url('../assets/img//logos/logo_red_37px.png') left top no-repeat;
+		width: 108px;
+		height: 30px;
+		background:transparent url('../assets/img//logos/STEFAN_71px.png') left top no-repeat;
         /* @include script-font; */
         &:hover,
         &:focus,
@@ -168,15 +168,15 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom {
         background-color: transparent;
-        padding: 25px 0;
+        padding: 5px 0;
         -webkit-transition: padding 0.4s;
         -moz-transition: padding 0.4s;
         transition: padding 0.4s;
         border: none;
         .navbar-brand {
-			width: 130px;
-			height: 59px;
-			background:transparent url('../assets/img//logos/logo_red_1X.png') left top no-repeat;
+			width: 161px;
+			height: 46px;
+			background:transparent url('../assets/img//logos/STEFAN_141px.png') left top no-repeat;
             font-size: 2em;
             -webkit-transition: all 0.4s;
             -moz-transition: all 0.4s;
@@ -192,16 +192,16 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width:768px) {
     .navbar-custom.affix {
-        background-color: $gray-darker;
+        background-color: $gray-base; // Smag: was $gray-darker
         padding: 5px 0; /* Smag: was 10px top and bottom padding */
 		font-size: .8em;
         -webkit-transition: all 0.4s;
         -moz-transition: all 0.4s;
         transition: all 0.4s;
         .navbar-brand {
-			width: 66px;
+			width: 108px;
 			height: 30px;
-			background:transparent url('../assets/img//logos/logo_red_30px.png') left top no-repeat;
+			background:transparent url('../assets/img//logos/STEFAN_71px.png') left top no-repeat;
         }
     }
 }
@@ -575,7 +575,7 @@ aside.clients {
 // Contact Section
 
 section#contact {
-    background-color: $gray-darker;
+    background-color: $gray-darker; //Smag: was $gray-darker
     /* background-image: url('../assets/img//map-image.png'); */
     background-position: center;
     background-repeat: no-repeat;
@@ -649,7 +649,7 @@ ul.social-buttons {
     li {
         a {
             display: block;
-            background-color: $gray-darker;
+            background-color: $theme-calm;
             height: 40px;
             width: 40px;
             border-radius: 100%;
@@ -777,7 +777,7 @@ body {
     webkit-tap-highlight-color: $theme-primary;
 }
 
-/* SMAG adding news article styles here */
+/* SMAG adding BLOG or NEWS article styles here */
 
 .news .excerpt {
 	font-size: 14px;
@@ -795,7 +795,7 @@ body {
 
 .news .flytitle {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: $theme-danger;
+  color: $theme-primary;
   font-weight: 500;
   font-size: 1.2em;
 }
