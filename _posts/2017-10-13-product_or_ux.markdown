@@ -1,7 +1,7 @@
 ---
 layout: post
 flytitle: Half lion, half mini schnauzer
-title:  "Are you a product manager or a designer?"
+title:  "Are you product manager or designer?"
 dek: Notes on the connections between product management, product design, research, prototyping, engineering, and how these connections hold the key to innovation
 comments: false
 date:   2017-10-13 07:27:14 -0600
