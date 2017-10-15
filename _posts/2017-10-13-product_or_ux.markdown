@@ -1,14 +1,14 @@
 ---
 layout: post
-flytitle: Lard and felt
-title:  "What Joseph Beuys can teach product managers and designers"
-dek: Everyone is a designer, developer, product owner, system administrator, and artist
+flytitle: Half lion, half mini schnauzer
+title:  "Are you a product manager or a designer?"
+dek: Notes on the connections between product management, product design, research, prototyping, engineering, and how these connections hold the key to innovation
 comments: false
 date:   2017-10-13 07:27:14 -0600
 categories: 
 author: "Stefan Smagula"
-img-large: http://www.tate.org.uk/sites/default/files/images/joseph_beuys_talking_to_richard_hamilton_at_tate.jpg
-img-small: http://www.tate.org.uk/sites/default/files/images/joseph_beuys_talking_to_richard_hamilton_at_tate.jpg
+img-large: https://news.yale.edu/sites/default/files/d6_files/1_36.jpg
+img-small: http://cdn.ipernity.com/200/37/06/41363706.b230bd90.640.jpg?r2
 ---
 PEOPLE ASK are you a product designer, a UX person, a researcher, a prototyper, or a product manager? 
 
@@ -28,24 +28,6 @@ I can design wireframes and  high-fidelity mockups of software using AI or Sketc
  
 I'm researcher, product manager, designer, prototyper, and curious person who likes to learn and solve problems.
 
-But I get asked a lot "are you a designer or product person?" This question confuses me, because to me a designer is a product person, and vice-versa. You cannot design a software product effectively without having discovered and validated product ideas with real or proxy users. You cannot properly devise and prioritize a product backlog, without a grasp of people—their goals, needs, and preferences for visual and emotional design.
+But I get asked a lot "are you a designer or product person?" This question confuses me, because to me a designer is a product person, and vice-versa. You cannot design a software product effectively without having discovered, validated, and prioritized product ideas with real or proxy users. You cannot properly devise and prioritize a product backlog, without a grasp of people—their goals, needs, and preferences for visual and emotional design.
 
-Product thinking includes tasks like validation of problem and solution, prioritization by value and complexity, iterative planning, measurement and evaluation, software engineering principles, designing for change (often called 'agility'). Design thinking requires an understanding of human factors and ergonomics, human psychology, behavioral economics, and the principles of visual communication and emotional design. It's the combination of product thinking with design thinking that yields a holistic view of what the product can and should become. 
-
-So what does Joseph Beuys have to do with all this? When I was in high school in San Francisco, where I grew up, I discovered a German artist named Joseph Beuys. His dictum was "Everyone's an artist." At the time I was in love with chemistry, neurology, and science but I could see that ever-increasing specialization would be required if I became a chemist or a neurologist. This seemed odd to me. Wouldn't I be more capable (not to mention happier) if I were a specialist in a few areas? When I was sixteen years old the answer that I received from my neurologist mentor was basically: you cannot be a specialist in a few areas. You must choose, and choose soon.
-
-Then I read an auto-biographical essay by Joseph Beuys, in it he described being a biological sciences student at a prestigious German university. He was a good student but an uncertainty was nagging him. He felt possibly unsuited to become a professional biologist. This resonated with my sixteen-year old self. Beuys described one particular afternoon when he experienced his epiphany. He was in a lecture hall listening to a professor who had spent his entire life studying the inner organelles of a tiny one-celled organism. Beuys stood up and walked out of the lecture hall, never to return to science. Instead he turned to art. 
-
-He became one of the most influential artists of the Post-WWII era, helping to found the Fluxus movement which inspired many artists to think more conceptually about their art, and what could be accomplished with it. Joseph Beuys saw transforming society as his mission, but it was not his art that would transform society, it was everyman who would do that:
-
-	Joseph Beuys believed that it was possible to transform society 
-	through the creativity of every individual. He emerged as an 
-	artist amid Germany's post-war reconstruction, claiming for 
-	art a unique role in the spiritual regeneration of society, 
-	in opposition to a materialistic culture. 
-	
-<a href="http://www.tate.org.uk/whats-on/tate-liverpool/exhibition/joseph-beuys-revolution-us">Tate Museum Catalog</a>
-
-Most product managers, researchers, designers, and software engineers who toil long hours at technology startups and corporations would say that they are motivated to work because, deep down, they are striving 'make the world a better place'&mdash;through software. And software is changing the world, sometimes for the better. Look at the advances we've made in the last 20 years: peer-to-peer technologies, artificial intelligence, machine learning, computer vision, mobile computing, augmented reality, new markets, technology-based crypto-currencies... I could go on and on. But by becoming increasingly specialized, narrowly focused on 'just engineering' or 'just designing' we risk losing the sort of holistic, overarching, transformative vision that can only come from all of us collaborating together. 
-
-If you want to make the world a better place, the creativity of every individual is needed. This is what Beuys has to teach us.
+Product thinking includes tasks like validating the problem and the solution, prioritizing by value and complexity, planning iteratively, measuring, evaluating, systematizing, designing for change (often called 'agility'). Design thinking requires an understanding of human factors and ergonomics, human psychology, behavioral economics, and the principles of visual communication and emotional design. It's the combination of product thinking with design thinking that yields a holistic view of what a product or service can and should become. 
