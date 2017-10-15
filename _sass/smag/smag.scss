@@ -99,7 +99,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;  
     border-color: transparent;
     .navbar-brand {
-		margin-top: 10px;
+		margin-top: 15px;
+		margin-left: 10px;
         color: $theme-primary;
 		width: 108px;
 		height: 30px;
@@ -113,13 +114,13 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
     .navbar-collapse {
-        border-color: fade-out(white, .02);
+        border-color: fade-out(#666, .02);
     }
     .navbar-toggle {
         background-color: $theme-primary;
         border-color: $theme-primary;
         @include heading-font;
-        color: #ffffff; /* Smag: was $gray-darker */
+        color: $gray-lighter; /* Smag: was $gray-darker */
         font-size: 12px;
         &:hover,
         &:focus {
@@ -133,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
                 @include heading-font;
                 font-weight: 400;
                 letter-spacing: 2px;
-                color: white;
+                color: $gray-lighter;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
@@ -156,13 +157,13 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
 		color: $theme-primary;
-        background-color: darken($theme-primary, 50%);
+        background-color: darken($theme-calm, 60%);
     }
 }
 
 //Smag adding a navbar style to apply gray-darker bg color for use on news pages
 .news .navbar-custom {
-	background-color: $gray-darker;
+	background-color: $gray-darker; //$gray-darker
 }
 
 @media(min-width:768px) {
@@ -174,9 +175,9 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.4s;
         border: none;
         .navbar-brand {
-			width: 161px;
-			height: 46px;
-			background:transparent url('../assets/img//logos/STEFAN_141px.png') left top no-repeat;
+			width: 150px;
+			height: 50px;
+			background:transparent url('../assets/img//logos/STEFAN_146px.png') left top no-repeat;
             font-size: 2em;
             -webkit-transition: all 0.4s;
             -moz-transition: all 0.4s;
@@ -192,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width:768px) {
     .navbar-custom.affix {
-        background-color: $gray-base; // Smag: was $gray-darker
+        background-color: $gray-darker; // Smag: was $gray-darker
         padding: 5px 0; /* Smag: was 10px top and bottom padding */
 		font-size: .8em;
         -webkit-transition: all 0.4s;

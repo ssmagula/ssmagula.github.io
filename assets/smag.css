@@ -125,7 +125,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #222222;
   border-color: transparent; }
   .navbar-custom .navbar-brand {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
     color: #CF4647;
     width: 108px;
     height: 30px;
@@ -134,12 +135,12 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
       color: #b32f30; }
   .navbar-custom .navbar-collapse {
-    border-color: rgba(255, 255, 255, 0.98); }
+    border-color: rgba(102, 102, 102, 0.98); }
   .navbar-custom .navbar-toggle {
     background-color: #CF4647;
     border-color: #CF4647;
     font-family: "Oswald", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #ffffff;
+    color: #eeeeee;
     /* Smag: was $gray-darker */
     font-size: 12px; }
     .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
@@ -149,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
-    color: white; }
+    color: #eeeeee; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #CF4647;
       outline: none; }
@@ -166,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-custom .navbar-nav > .active > a:hover,
   .navbar-custom .navbar-nav > .active > a:focus {
     color: #CF4647;
-    background-color: #110505; }
+    background-color: black; }
 
 .news .navbar-custom {
   background-color: #222222; }
@@ -180,9 +181,9 @@ h1, h2, h3, h4, h5, h6 {
     transition: padding 0.4s;
     border: none; }
     .navbar-custom .navbar-brand {
-      width: 161px;
-      height: 46px;
-      background: transparent url("../assets/img//logos/STEFAN_141px.png") left top no-repeat;
+      width: 150px;
+      height: 50px;
+      background: transparent url("../assets/img//logos/STEFAN_146px.png") left top no-repeat;
       font-size: 2em;
       -webkit-transition: all 0.4s;
       -moz-transition: all 0.4s;
@@ -191,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 3px; } }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #000;
+    background-color: #222222;
     padding: 5px 0;
     /* Smag: was 10px top and bottom padding */
     font-size: .8em;
