@@ -1,8 +1,8 @@
 ---
 layout: page
 flytitle:
-hed: News & Updates
-dek: Notes on product management, technology, and design
+hed: Blog posts
+dek: Notes and ideas about creativity, technology, and design
 permalink: blog
 
 ---
