@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
         /* border-radius: 0;
         color: white;
         background-color: $theme-primary; */
-		background-color: transparent;
+		background-color: transparent; // Smag: was transparent;
 		color: $theme-primary;
 		border-color: $theme-primary;
 	    border-style: solid;
