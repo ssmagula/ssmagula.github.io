@@ -10,7 +10,7 @@ author: "Stefan Smagula"
 img-large: http://www.tate.org.uk/sites/default/files/images/joseph_beuys_talking_to_richard_hamilton_at_tate.jpg
 img-small: http://www.tate.org.uk/sites/default/files/images/joseph_beuys_talking_to_richard_hamilton_at_tate.jpg
 ---
-IN AN EARLIER post, I wrote about the connections between research, product management, user experience design, product design, and prototyping. This post is about the potential that comes from people working across disciplines, not within them.
+IN AN <a href="{{ "2017/10/13/product_or_ux.html" | relative_url }}">EARLIER</a> post, I wrote about the connections between research, product management, user experience design, product design, and prototyping. This post expands on the same theme: the potential that comes from working across disciplines, not within them.
 
 Wat does Joseph Beuys have to do with all this? When I was in high school in San Francisco, where I grew up, I discovered a German artist named Joseph Beuys. His dictum was "Everyone's an artist." At the time I was in love with chemistry, neurology, and science but I could see that ever-increasing specialization would be required if I became a chemist or a neurologist. This seemed odd to me. Wouldn't I be more capable (not to mention happier) if I were a specialist in a few areas? When I was sixteen years old the answer that I received from my neurologist mentor was basically: you cannot be a specialist in a few areas. You must choose, and choose soon.
 
