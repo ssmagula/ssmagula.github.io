@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ssmagula/ssmagula.github.io)
+
 # Understanding this site
 
 This site is is a place for product management and design case studies and articles by Stefan Smagula. See the site here: [Stefan Smagula Case Studies](https://ssmagula.github.io)
