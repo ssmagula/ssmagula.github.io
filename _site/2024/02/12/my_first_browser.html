@@ -13,8 +13,8 @@
     <meta name="author" content="Stefan Smagula">
 	
 	<!-- Smag this is page title or else site title -->
-    <title>Making this site</title>
-    <meta name="description" content="YOU WILL FIND this post in your _posts directory, if you’re managing a Jekyll site. Jekyll is a static site generator, written in Ruby. Here’s how it works: ...">
+    <title>What I learned from the first browser I worked on</title>
+    <meta name="description" content="“HOW DID YOU CONVINCE MICROSOFT?” Right before the Dot Com Boom 1.0 blossomed into peak irrational exuberance I wrote my Master’s thesis called “The Almost C...">
 
     
     <!-- Bootstrap Core CSS Smag: should I set this as an asset? Or leave as is? -->
@@ -22,7 +22,7 @@
 
 	
 	<!-- Smag: this is Jekyll code for ??? and site title for RSS feed -->
-    <link rel="canonical" href="http://localhost:4000/2017/04/02/welcome-to-new-site-jekyll.html">
+    <link rel="canonical" href="http://localhost:4000/2024/02/12/my_first_browser.html">
     <link rel="alternate" type="application/rss+xml" title="Stefan Smagula Case Studies" href="/feed.xml">
 
     <!-- Custom Fonts Smag: Should I create assets? -->
@@ -176,67 +176,37 @@
 		<div class="row">
 			<div class="article col-lg-6 col-lg-offset-2 col-sm-6 col-sm-offset-2 body">
 				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-					<div class="flytitle">Incantations</div>
-					<div class="title h1">Making this site</div>
-					<div class="dek"><p>Some notes on how this site is assembled in .22 seconds by a series of scripts and codes</p></div>
+					<div class="flytitle">Distribution</div>
+					<div class="title h1">What I learned from the first browser I worked on</div>
+					<div class="dek"><p>Sometimes hundreds of millions of eyes are useful</p></div>
 					<img src="http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg" class="img-responsive">
 					
 					  <div class="body"> <!-- SMAG: body class sets margin-top and line-height -->
-						  <p>YOU WILL FIND this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory, if you’re managing a Jekyll site. Jekyll is a static site generator, written in Ruby. Here’s how it works: you install Jekyll locally:</p>
+						  <h4 id="how-did-you-convince-microsoft">“HOW DID YOU CONVINCE MICROSOFT?”</h4>
+<p>Right before the Dot Com Boom 1.0 blossomed into peak irrational exuberance I wrote my Master’s thesis called “The Almost Chosen Ones” about technogical anxiety and American religions. With MA in hand, I started working at a medium sized software company in Austin, Texas.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span> <span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">bundler</span></code></pre></figure>
+<p>This company had over 50 million subscribers paying $20 or $30 a month for a service. (I’m going to keep things intentionally vague). To use the service, you would launch a customized Web browser. Here’s the kicker, the part that’s critical to the whole thing, the service was not at all distinctive, better, or even different than what was offered by 30 similar companies at the time, but this company was much more successful than those other companies.</p>
 
-<p>and you generate the scaffolding for a new site with a brief incantation like this:</p>
+<p>Why was it was more successful? Somewhere along the way, some smart people in business development had figured out that Microsoft would be willing to pre-install this browser and place an alias on the Windows desktop. When people bought a new windows computer, a percentage of them would launch that pre-installed browser, and then they’d sign up.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span> <span class="err">$</span> <span class="n">jekyll</span> <span class="n">new</span> <span class="n">my</span><span class="o">-</span><span class="n">new</span><span class="o">-</span><span class="n">site</span><span class="o">-</span><span class="nb">name</span></code></pre></figure>
+<h4 id="its-easy">IT’S EASY</h4>
 
-<p>Then you simply move to the site directory you just created</p>
+<p>I was friends with the business development lead who negotiated the terms of the agreement with Microsoft. So one day I invited her and her boss over for dinner and I think I grilled some fajitas and we talked about work. I said something like “So, how on earth do you two convince Microsoft to put our icon on every single Windows desktop?”</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">my</span><span class="o">-</span><span class="n">new</span><span class="o">-</span><span class="n">site</span><span class="o">-</span><span class="nb">name</span></code></pre></figure>
+<p>“It’s easy. We give Microsoft a s&amp;$% ton of money” my friend said.</p>
 
-<p>and then from inside that directory, you run the Jekyll server</p>
+<p>I asked: “So Microsoft doesn’t own a rival service that they’d rather promote on every single desktop they sell in North America?”</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span><span class="sr">/my-new-site-name $ bundle exec jekyll serve --watch</span></code></pre></figure>
+<p>“Not yet!” She replied.</p>
 
-<p>Now that the server is ‘watching’ your site for changes, as you add code and content, Jekyll automatically re-generates the entire site. In my case, with just a few pages, the process takes .22 seconds. Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
+<h4 id="lessons">LESSONS</h4>
+<p>That night I learned an important lesson: even if your browser is not the system default, getting the browser icon in front of people at the right time and place, and providing something that you can’t get from the system default browser are the keys to success. It’s not that offering a better product or service doesn’t help, but without distribution, even a demonstrably better product will struggle.</p>
 
-<h4 id="why-jekyll">WHY JEKYLL?</h4>
-<p>What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you’re like me, and eager to learn more Ruby, then Jekyll is a great way to ease into things. Take a look at the list of blog posts in  <code class="language-plaintext highlighter-rouge">/blog</code> (or the footer of the home page), under the hood there’s a bit of embedded Ruby in the HTML and this Ruby says: make a list of all the blog articles, discard all but the most recent three posts, then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags here. The hed, dek, etc. are all defined in the front matter of the markdown file you use to create the post. ‘Front matter’ sound confusing? Just open the sample posts that are baked into the default new site. It’ll make instant sense. They’re just variables that you can refer to elsewhere.</p>
+<h4 id="irrational-man-and-woman">IRRATIONAL MAN AND WOMAN</h4>
+<p>Humans are irrational. We do not make perfectly rational decisions. Status quo bias refers to the tendency to use a default, even if selecting something better would take just a minute or two. Convenience often trumps quality or price. So when people see that there’s a default browser they think “the operating system made this the default because it works well on my computer. And its convenient.” When they see a browser icon on the dektop, they think: “Maybe there’s a cheaper or better option, but this is easy, and I trust that this service will work on my computer. It’s convenient.”</p>
 
-<p>I found Jekyll’s includes and layouts easy to navigate. You put reusable code for the head, header, and footers in the includes directory, then include them into layouts you create, for example a  <code class="language-plaintext highlighter-rouge">page</code> layout. When you create a new instance of a <code class="language-plaintext highlighter-rouge">page</code>, it knows that a  <code class="language-plaintext highlighter-rouge">page</code> is just a slight variation on the <code class="language-plaintext highlighter-rouge">default</code> layout.</p>
-
-<p>Because there’s no database in the backend, there’s reduced complexity, increased security, and each page is much snappier to load.</p>
-
-<p>When I first heard about static site generators, I was a bit confused. If this were possible, why aren’t more bloggy sites using static site generators? Turns out the answer is: because we just needed a little time to figure out how simple it is. At least that’s how I feel.</p>
-
-<h4 id="credits">CREDITS</h4>
-<p>This site is hosted using <a href="https://github.io/">Github Pages</a>, which makes hosting HTTPS sites relatively painless and easy, not to mention very cost-effective (gratis). I used the Bootstrap Agency theme for its animated fixed nav bar and nice timeline CSS. All icons are by <a href="http://FontAwesome.io/">FontAwesome</a>, and from time to time I use the following icons from the <a href="https://thenounproject.com/">Noun Project</a></p>
-<ul>
-  <li>Recursive triangles, Created by Bohdan Burmich</li>
-  <li>Donut chart, created by HLD</li>
-  <li>Lightbulb, created by ImageCatalog</li>
-</ul>
-
-<p>The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the rhythm, inner structure of something simple, something we take for granted. It is “Dennenaalden, anonymous, 1840 - 1845” and is part of the <a href="https://www.rijksmuseum.nl/en/my/collections/183512--stefan-smagula/patterns/objecten#/RP-F-F15045,0">Rijskmuseum collection</a> in Amsterdam.</p>
-
-<h4 id="rebuilding-and-publishing">REBUILDING AND PUBLISHING</h4>
-<p>You can rebuild the site locally in many different ways, but using the –watch flag is simple. When you’re ready, you publish the entire site with a new incantation:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
-
-<p>Simple, right?</p>
-
-<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter.</p>
-
-<p>Jekyll also offers support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<h4 id="next">NEXT</h4>
+<p>I’ll tell you about the adventure we had reinventing the customized browser that was preinstalled on every Microsoft desktop in North America. Spoiler: it was a tabbed browser and it predated Firefox, the “first browser with tabs.”</p>
 
  
 						  <!-- SMAG: body of article comes with its own p tags -->
@@ -251,7 +221,7 @@
         <div class="team-member sidebar col-lg-3  col-md-3 col-sm-3">
 			<p class="text-muted">
 				
-				<time datetime="2017-04-02T15:27:14+00:00" itemprop="datePublished">Apr 2, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">By Stefan Smagula</span></span>
+				<time datetime="2024-02-12T15:27:14+00:00" itemprop="datePublished">Feb 12, 2024</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">By Stefan Smagula</span></span>
 			</p>
 			            <ul class="list-inline social-buttons">
 	            
@@ -341,7 +311,7 @@
 				<a href="/2024/02/12/my_first_browser.html">
 					<span class="title h3">What I learned from the first browser I worked on</span>
 				</a>
-						<p style="font-size:1.1em">#### "HOW DID YOU CONVINCE MICROSOFT?" Right before the Dot Com Boom 1.0 blossomed into peak irrational exuberance I wrote my Master’s thesis called “The Almost Chosen Ones”...</p>
+						<p style="font-size:1.1em">“HOW DID YOU CONVINCE MICROSOFT?” Right before the Dot Com Boom 1.0 blossomed into peak irrational exuberance I wrote my Master’s thesis called “The Almost Chosen Ones” about...</p>
 					<span>
 						Stefan Smagula</span>, <span>Feb 12, 2024
 					</span>
@@ -385,7 +355,7 @@
 				<a href="/2017/10/13/product_or_ux.html">
 					<span class="title h3">Are you product manager or designer?</span>
 				</a>
-						<p style="font-size:1.1em">PEOPLE ASK are you a product designer, a UX person, a researcher, a prototyper, or a product manager? Here's how I answer. For many years I've been designing...</p>
+						<p style="font-size:1.1em">PEOPLE ASK are you a product designer, a UX person, a researcher, a prototyper, or a product manager? Here’s how I answer. For many years I’ve been designing...</p>
 					<span>
 						Stefan Smagula</span>, <span>Oct 13, 2017
 					</span>
