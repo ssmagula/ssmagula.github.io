@@ -62,10 +62,10 @@ permalink: /profile.html
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Today</h4>
-                                <h4 class="subheading">Product management and product design</h4>
+                                <h4 class="subheading">Product management</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">For over fifteen years I've been product managing and designing software for companies large and small. At <cite>The Economist</cite> I was introduced to scrum and agile by Rob Purdie and Emannuel Szabados, and have been an advocate of these techniques ever since.</p>
+                                <p class="text-muted">Today I am proud to work as a senior staff product manager at Mozilla, where I am helping to create Tab Groups, Smart Tab Groups, and other productivity improvements for the Firefox browser, used by hundreds of millions of people around the world. For over twenty years I've been developing, managing, defining, designing, and helping teams reach better outcomes at companies like The Economist, Bloomberg, and Google.</p>
                             </div>
                         </div>
                     </li>
