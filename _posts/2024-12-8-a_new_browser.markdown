@@ -6,7 +6,7 @@ comments: true
 dek: The start of a high-stakes, high-pressure project to reinvent a Web browser
 date:   2024-12-08 09:27:14 -0600
 categories:
-author: <a href="https://ssmagula.github.io/profile.html">Stefan Smagula</a>
+author: Stefan Smagula
 img-large: https://www.mediastorehouse.com/p/731/group-v-seven-pointed-star-no-19781585.jpg
 img-small: https://www.mediastorehouse.com/p/731/group-v-seven-pointed-star-no-19781585.jpg
 ---
