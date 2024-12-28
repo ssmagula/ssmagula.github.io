@@ -24,7 +24,7 @@ So, to get back to that question: what am I? I have planned and conducted discov
 
 I can write a well-formed user story, know when and why to use acceptance criteria and 'how to demo' criteria, and I can prioritize epics and stories by business value, user value, and properly estimated complexity. I can lead scrum and agile teams as a servant-leader and I can define product and user experience metrics. I know why and when to use entry cohort analysis, and can point to examples of how I used entry cohort analysis in the past with good effect. But I don't consider myself to be only a product manager.
 
-I can design wireframes and  high-fidelity mockups of software using AI or Sketch, and can prototype interactions, transitions, and animations (HTML/CSS, Origami, or InVision). I'm a competent visual designer who is familiar with design, art, art history, principles of typography. I know the difference between Russian constructivism and neo-brutalism and can talk about the role of technology in shaping both how we design and what we design (a Worfian hypothesis). But I'm not a visual design specialist.
+I can design wireframes and  high-fidelity mockups of software using Figma and can prototype interactions, transitions, and animations in Figma, HTML/CSS, Origami. I'm a competent visual designer who is familiar with design, art, art history, principles of typography. I know the difference between Russian constructivism and neo-brutalism and can talk about the role of technology in shaping both how we design and what we design (a Worfian hypothesis). But I'm not a visual design specialist.
  
 I'm researcher, product manager, designer, prototyper, and curious person who likes to learn and solve problems.
 

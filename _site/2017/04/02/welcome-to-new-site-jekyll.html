@@ -198,10 +198,52 @@
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span><span class="sr">/my-new-site-name $ bundle exec jekyll serve --watch</span></code></pre></figure>
 
-<p>Now that the server is ‘watching’ your site for changes, as you add code and content, Jekyll automatically re-generates the entire site. In my case, with just a few pages, the process takes .22 seconds. Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
+<p>Now that the server is ‘watching’ your site for changes, as you add code and content, Jekyll automatically re-generates the entire site. In my case, with just a few pages, the process takes .22 seconds.</p>
+
+<p>Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
+
+<h4 id="create-a-new-branch">CREATE A NEW BRANCH</h4>
+<p>Create a new branch with git</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
+
+<p>or checkout an existing branch</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
+
+<h4 id="rebuild-and-publish">REBUILD AND PUBLISH</h4>
+<p>You can rebuild the site locally in many different ways, but using the –watch flag is simple.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">watch</span></code></pre></figure>
+
+<p>Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site)</p>
+
+<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code>and includes the necessary front matter.
+Then make edits to files in the <code class="language-plaintext highlighter-rouge">_posts</code> directory. When you are done, quit the jekyll server with <code class="language-plaintext highlighter-rouge">ctrl-c</code>, and then add all the changes to git’s staging area:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">add</span> <span class="o">.</span></code></pre></figure>
+
+<p>Now you are ready to commit the changes with a message describing what changed</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"Your commit message"</span> </code></pre></figure>
+
+<p>Then push your branch to the remote repo</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
+
+<p>Finally, checkout master, pull master to make sure master is up to data, and then merge and push:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
+<span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>  <span class="c1"># Ensure master is up-to-date</span>
+<span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+
+<p>Your site will be updated in a minute or so. If you want to delete the branch you can</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">-</span><span class="n">d</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span></code></pre></figure>
 
 <h4 id="why-jekyll">WHY JEKYLL?</h4>
-<p>What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you’re like me, and eager to learn more Ruby, then Jekyll is a great way to ease into things. Take a look at the list of blog posts in  <code class="language-plaintext highlighter-rouge">/blog</code> (or the footer of the home page), under the hood there’s a bit of embedded Ruby in the HTML and this Ruby says: make a list of all the blog articles, discard all but the most recent three posts, then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags here. The hed, dek, etc. are all defined in the front matter of the markdown file you use to create the post. ‘Front matter’ sound confusing? Just open the sample posts that are baked into the default new site. It’ll make instant sense. They’re just variables that you can refer to elsewhere.</p>
+<p>What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you’re like me, and eager to learn more Ruby, then Jekyll is a great way to ease into things. Take a look at the list of blog posts in <code class="language-plaintext highlighter-rouge">/blog</code> (or the footer of the home page), under the hood there’s a bit of embedded Ruby in the HTML and this Ruby says: make a list of all the blog articles, discard all but the most recent four posts, then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags here. The hed, dek, etc. are all defined in the front matter of the markdown file you use to create the post. ‘Front matter’ sound confusing? Just open the sample posts that are baked into the default new site. It’ll make instant sense. They’re just variables that you can refer to elsewhere.</p>
 
 <p>I found Jekyll’s includes and layouts easy to navigate. You put reusable code for the head, header, and footers in the includes directory, then include them into layouts you create, for example a  <code class="language-plaintext highlighter-rouge">page</code> layout. When you create a new instance of a <code class="language-plaintext highlighter-rouge">page</code>, it knows that a  <code class="language-plaintext highlighter-rouge">page</code> is just a slight variation on the <code class="language-plaintext highlighter-rouge">default</code> layout.</p>
 
@@ -219,16 +261,7 @@
 
 <p>The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the rhythm, inner structure of something simple, something we take for granted. It is “Dennenaalden, anonymous, 1840 - 1845” and is part of the <a href="https://www.rijksmuseum.nl/en/my/collections/183512--stefan-smagula/patterns/objecten#/RP-F-F15045,0">Rijskmuseum collection</a> in Amsterdam.</p>
 
-<h4 id="rebuilding-and-publishing">REBUILDING AND PUBLISHING</h4>
-<p>You can rebuild the site locally in many different ways, but using the –watch flag is simple. When you’re ready, you publish the entire site with a new incantation:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
-
-<p>Simple, right?</p>
-
-<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter.</p>
-
-<p>Jekyll also offers support for code snippets:</p>
+<h4 id="jekyll-also-offers-support-for-code-snippets">Jekyll also offers support for code snippets:</h4>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
   <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
@@ -277,6 +310,13 @@
 			<div class="news article-list" style="text-align: left">	
 			    
 			      <div>
+					<div class="flytitle" style="padding:5px 0px; font-size:1em">Streamlined operations</div>
+			        <a href="/2024/12/18/manila_envelopes.html"><p class="title h5">Look for a manila envelope on your desk</p></a>
+					<p class="text-muted text-small">Dec 18, 2024</p>
+					<hr>
+			      </div>			  
+			    
+			      <div>
 					<div class="flytitle" style="padding:5px 0px; font-size:1em">Big batch, waterfall, big bang</div>
 			        <a href="/2024/12/18/launch.html"><p class="title h5">T-minus three, two, one...wait, what&#39;s going on?</p></a>
 					<p class="text-muted text-small">Dec 18, 2024</p>
@@ -311,13 +351,6 @@
 					<hr>
 			      </div>			  
 			    
-			      <div>
-					<div class="flytitle" style="padding:5px 0px; font-size:1em">Incantations</div>
-			        <a href="/2017/04/02/welcome-to-new-site-jekyll.html"><p class="title h5">Making this site</p></a>
-					<p class="text-muted text-small">Apr 2, 2017</p>
-					<hr>
-			      </div>			  
-			    
 				<a href="/news.html">View all news</a>
 			</div> 	-->
         </div>
@@ -334,6 +367,28 @@
 			</div>
 		</div>	
 		
+		<div class="row">
+			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-4">
+			<a href="/2024/12/18/manila_envelopes.html">
+				<img src=" https://www.mediastorehouse.com/p/731/largest-no-7-adulthood-group-iv-19781579.jpg " class="img-responsive" style="margin-top:7px">
+			</a>
+			</div>
+
+			<div class="col-lg-5 col-sm-5">
+				<div class="flytitle" style="padding-bottom:10px; font-size:1.1em">
+					Streamlined operations
+				</div>
+				<a href="/2024/12/18/manila_envelopes.html">
+					<span class="title h3">Look for a manila envelope on your desk</span>
+				</a>
+						<p style="font-size:1.1em">*Group IV, The Ten Largest, No. 7, Adulthood (1907) by Hilma af Klint, Guggenheim Museum, New York City* WE HAD BEEN WORKING for almost two years on a...</p>
+					<span>
+						Stefan Smagula</span>, <span>Dec 18, 2024
+					</span>
+				<hr>
+			</div>
+		</div>
+	
 		<div class="row">
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-4">
 			<a href="/2024/12/18/launch.html">

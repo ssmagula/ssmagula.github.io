@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-19T04:23:07+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stefan Smagula Case Studies</title><subtitle>Powering people and products to reach their potential
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-28T22:41:30+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stefan Smagula Case Studies</title><subtitle>Powering people and products to reach their potential
 </subtitle><entry><title type="html">T-minus three, two, one…wait, what’s going on?</title><link href="http://localhost:4000/2024/12/18/launch.html" rel="alternate" type="text/html" title="T-minus three, two, one…wait, what’s going on?" /><published>2024-12-18T15:27:14+00:00</published><updated>2024-12-18T15:27:14+00:00</updated><id>http://localhost:4000/2024/12/18/launch</id><content type="html" xml:base="http://localhost:4000/2024/12/18/launch.html"><![CDATA[<p>TO FULLY GRASP this story, you’ll need to have some idea of what the years 1999 to 2001 were like if you were working on Web sites. It was a boom time: weekly technology company IPOs, billion dollar investments in twenty-something entrepreneurs, and friends and family shares raining from the heavens. But it was also a time of creativity and reinvention. Back then I worked at a company that created Web sites for large corporations.</p>
 
 <p>I was young and single, so traveling for work was an adventure, at least at first. One day, when we pitched an ecommerce site to a household name company, the front two rows were packed with salesmen who were unhappy about being disintermediated. About 3 minutes into the hour, shouting started, and two salesmen jumped up and got in the face of a guy from our company. They were red faced and screaming: “I have a family and a mortgage, how is your mother f*&amp;%$ Web site going to help me pay my mortgage?” Fists were going to fly. Then poof. The lights went out.</p>
@@ -27,7 +27,48 @@
 <h4 id="next-installment">NEXT INSTALLMENT</h4>
 <p>I’ll share what happens when the clouds parted, and the true nature of our project was revealed.</p>
 
-<p>NB: Names and details have been changed.</p>]]></content><author><name>Stefan Smagula</name></author><summary type="html"><![CDATA[TO FULLY GRASP this story, you’ll need to have some idea of what the years 1999 to 2001 were like if you were working on Web sites. It was a boom time: weekly technology company IPOs, billion dollar investments in twenty-something entrepreneurs, and friends and family shares raining from the heavens. But it was also a time of creativity and reinvention. Back then I worked at a company that created Web sites for large corporations.]]></summary></entry><entry><title type="html">He said “All you have to do now is just write the code”</title><link href="http://localhost:4000/2024/12/08/a_new_browser.html" rel="alternate" type="text/html" title="He said “All you have to do now is just write the code”" /><published>2024-12-08T15:27:14+00:00</published><updated>2024-12-08T15:27:14+00:00</updated><id>http://localhost:4000/2024/12/08/a_new_browser</id><content type="html" xml:base="http://localhost:4000/2024/12/08/a_new_browser.html"><![CDATA[<p>MORTON GREETED ME with a conspiratorial smile, which was odd because we had just met. He was the C-level executive of a company, and I was just some dude who had recently left grad school who was looking for work. He asked a question that required imagination: “If I give you a Web page that 20 million people look at once a day, every day, what would you do with that page?” I said something totally crazy that I instantly regretted, but it was too late. The recruiter called later that day: you’re hired.</p>
+<p>NB: Names and details have been changed.</p>]]></content><author><name>Stefan Smagula</name></author><summary type="html"><![CDATA[TO FULLY GRASP this story, you’ll need to have some idea of what the years 1999 to 2001 were like if you were working on Web sites. It was a boom time: weekly technology company IPOs, billion dollar investments in twenty-something entrepreneurs, and friends and family shares raining from the heavens. But it was also a time of creativity and reinvention. Back then I worked at a company that created Web sites for large corporations.]]></summary></entry><entry><title type="html">Look for a manila envelope on your desk</title><link href="http://localhost:4000/2024/12/18/manila_envelopes.html" rel="alternate" type="text/html" title="Look for a manila envelope on your desk" /><published>2024-12-18T15:27:14+00:00</published><updated>2024-12-18T15:27:14+00:00</updated><id>http://localhost:4000/2024/12/18/manila_envelopes</id><content type="html" xml:base="http://localhost:4000/2024/12/18/manila_envelopes.html"><![CDATA[<p><em>Group IV, The Ten Largest, No. 7, Adulthood (1907) by Hilma af Klint, Guggenheim Museum, New York City</em></p>
+
+<p>WE HAD BEEN WORKING for almost two years on a new browser and it was nearly ready. This browser had tabs at a time when tabbed browsers did not exist, and it sported an email client, stock portfolio manager, and a calendar. The new session start page, the one which Morton had asked me about during my interview two years earlier, was also ready for the 20 million eyeballs that viewed it daily. The challenge we had was to upgrade the browser experience and the technology behind the service, without making the kinds of changes that would cause existing users to switch. There were plenty of other browsers and services like ours out there, and people could switch to a new one at any time.</p>
+
+<h4 id="a-mortgage-payment-a-plane-crash">A MORTGAGE PAYMENT, A PLANE CRASH</h4>
+<p>At about this time, on 10 September 2001, I paid my first ever mortgage payment. I pushed the button on my bank’s bill payment system, and set it to pay automatically … for 30 years. It was a lot of money to me at the time, and 30 years was a long time to pay it. The very next morning I listened to the news on KUT, the NPR station in Austin. A plane had struck the World Trade Center. I turned on the TV and saw smoke coming out of a hole in a tower. I was surprised to see how big the plane must have been. When I first heard the news I had imagined a two-seater in the fog, losing its way. But this was a cloudless day, and the hole was huge.</p>
+
+<p>I got in my car and drove to work with the news playing. I heard the announcer say: a tower had fallen. I pulled over. I had a close friend from college who had worked in one of those towers, and currently worked in an adjacent building. Was he still alive? I turned the radio up. Listened. Then the second tower collapsed. It was clear that this not an accident. At some point, the pentagon was struck.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Air traffic was shutdown. Amtrak trains stopped honking their horns. The stock market tanked. Companies started to layoff. I began to wonder, like the sales people from that company where I helped pitch a new ecommerce site, if I get laid off, how am I going to pay my mortgage? 
+</code></pre></div></div>
+
+<p>The new browser and all its apps had just barely been completed—through heroic efforts, and no small amount of personal sacrifice (<a href="https://ssmagula.github.io/2024/12/18/launch.html">read about the 24-hour shifts and EMS visit here</a>) but for some reason we had not yet started to pre-install the browser on Microsoft desktops. It turns out there was a reason for the delay, but we didn’t all know about it at the time.</p>
+
+<h4 id="return-to-your-desks">RETURN TO YOUR DESKS</h4>
+<p>At an unexpected all-hands meeting, the CEO took a meandering path through sunlit copses of trees, across streams and rivers, he talked about the challenges we overcame, the great sacrifices employees made to get the browser completed on time, and then as the sun set he paused in the gloaming and flatly announced: We recently agreed in principle to be acquired by Hyper-Scale company. We received word that no regulatory agency would attempt to block this acquisition, and the deal closed yesterday.</p>
+
+<p>“In order to streamline our operations and increase shareholder value, we have had to make some difficult decisions. We have decided we will lay off most of the company today, and then we will layoff the remainder of employees at a future date, perhaps in a few months. So, whether you are laid off today or later, everyone will be losing their jobs, it’s just a matter of when.”</p>
+
+<p>I heard someone curse the COO by name. I heard gasps. I heard the wolves start howling.</p>
+
+<p>“Go back to your desks now. If you have a manila envelope, please return to this room to be outprocessed by HR. If you have no envelope, then continue working. If you have questions, please see your HR representative.”</p>
+
+<p>I went back to my desk and looked for the envelope. I looked on the desk, on the seat, on the floor. Nothing. I walked around to other desks, everyone was gathering photos, books, papers, and exchanging phone numbers. They all had envelopes.</p>
+
+<h4 id="1-year-of-solitude">1 YEAR OF SOLITUDE</h4>
+<p>I was one of a small number of people not laid off. I dutifully returned to work each day, sat alone at my desk in a sea of 200 empty cubicles. I checked my email. I cleaned my keyboard and screen. I wandered the now empty floors of that Class A office space overlooking the hills. I’d take a break and walk on a trail behind the building, looking in the mesquite trees for information about when I’d be laid off. I was stuck in corporate limbo. I had a job, but nothing to do at work. And how long could that last?</p>
+
+<p>A colleague and I started to teach ourselves Java. At a fish shack, where the fried catfish tasted a little like mud, we’d talk about the differences between growing up in Delhi and Berkeley, California. The months passed. Maybe a year. We still had no work. By that time we had stopped learning Java and had started teaching ourselves some new Web technologies. I installed and configured Apache and set up a new blog and a wiki on my home server.</p>
+
+<p>Then came an email from headquarters: the acquiring company would hire us. There was a huge amount of undecipherable legal paperwork and then I was an employee of the hyper-scale company. The acquiring company already had a deal with a company that owned a browser and they were more interested in the millions of new customers they acquired for a dime on the dollar than they were in spending money on a tabbed browser.</p>
+
+<p>I remember thinking: If they only knew how desirable, efficient, and profitable the new tabbed browser would be, they’d understand its potential. But the people making these decisions were unknown to us, sitting somewhere in the headquarters, looking backwards at spreadsheets, and they had little understanding of browsers and search and how important the two were poised to become. From their point of view a browser was just another IT cost to be minimized, not a profit center. I wonder what they’d say today if you told them that Chrome was recently valued at about $20 billion dollars.</p>
+
+<p>A few years later I was still at Hyper-Scale company working on a new Internet-based video product when Firefox launched. Firefox was way ahead of the competition. It had Firebug, which was far better than any other developer tools, and it had tabs. I told everyone at work to switch to Firefox. I didn’t explain. I just said: within 5 minutes of using Firefox, if you don’t see why it’s way better, come talk to me. Everyone at work, and practically everyone I knew switched to Firefox.</p>
+
+<h4 id="epilogue">EPILOGUE</h4>
+<p>I look back on the two years I spent helping to create a new browser, and even though it never launched, it is one of my most memorable work experiences. I learned that big batch, waterfall, big bang approaches are inherently risky. The longer the elapsed time between “good idea” and “in the user’s hands” the more risk your are taking on. The world, technologies, and the economy never stop changing. To reduce risks, you need to work in small, incremental batches, release early and often, learn and adapt, and prototype frequently, involve existing and prospective users to reduce risk. But not all risks are bad. Some are vital. Our decision to go with a tabbed browser was a risk, and a good risk. The browser and the attached service would have been wildly successful, had we launched. I learned that deadlines are important and motivational, but no deadline is ever more important than everyone’s health.</p>
+
+<p>It feels great to work at Mozilla Firefox today, the independent browser that survived the gauntlet to launch and practically take over the browser world with about 35% of marketshare at peak. I’m proud to be working on new productivity improvements for Firefox, such as Tab Groups and several smart tab and smart tab group features, which use machine learning models to partially automate annoying, time consuming, or difficult browser management tasks—several of which involve those newfangled browser tabs.</p>
+
+<p>NB: Names and details have been changed.</p>]]></content><author><name>Stefan Smagula</name></author><summary type="html"><![CDATA[Group IV, The Ten Largest, No. 7, Adulthood (1907) by Hilma af Klint, Guggenheim Museum, New York City]]></summary></entry><entry><title type="html">He said “All you have to do now is just write the code”</title><link href="http://localhost:4000/2024/12/08/a_new_browser.html" rel="alternate" type="text/html" title="He said “All you have to do now is just write the code”" /><published>2024-12-08T15:27:14+00:00</published><updated>2024-12-08T15:27:14+00:00</updated><id>http://localhost:4000/2024/12/08/a_new_browser</id><content type="html" xml:base="http://localhost:4000/2024/12/08/a_new_browser.html"><![CDATA[<p>MORTON GREETED ME with a conspiratorial smile, which was odd because we had just met. He was the C-level executive of a company, and I was just some dude who had recently left grad school who was looking for work. He asked a question that required imagination: “If I give you a Web page that 20 million people look at once a day, every day, what would you do with that page?” I said something totally crazy that I instantly regretted, but it was too late. The recruiter called later that day: you’re hired.</p>
 
 <p>I met with Morton once a week to talk about the work ahead of us. It involved creating a suite of productivity apps for consumers, a starting page that would greet you each day—the one Morton asked about in the interview—and the chrome or user interface, that wraps around the browser’s rendering engine. Then I saw an email that went to the whole company; Morton was no longer with the company. This is probably not a good sign, I remember thinking. Later that day I ran into him as he was waiting for the elevator to exit the building. I said hi. He gave me that conspiratorial smile again and said, “Stefan, I’ve gotta to go now, but I know you all will figure it out.” As the elevator door was closing he said: “You’ve got this.” I appreciated that word of confidence from Morton. I never saw him again.</p>
 
@@ -97,7 +138,7 @@
 
 <p>I can write a well-formed user story, know when and why to use acceptance criteria and ‘how to demo’ criteria, and I can prioritize epics and stories by business value, user value, and properly estimated complexity. I can lead scrum and agile teams as a servant-leader and I can define product and user experience metrics. I know why and when to use entry cohort analysis, and can point to examples of how I used entry cohort analysis in the past with good effect. But I don’t consider myself to be only a product manager.</p>
 
-<p>I can design wireframes and  high-fidelity mockups of software using AI or Sketch, and can prototype interactions, transitions, and animations (HTML/CSS, Origami, or InVision). I’m a competent visual designer who is familiar with design, art, art history, principles of typography. I know the difference between Russian constructivism and neo-brutalism and can talk about the role of technology in shaping both how we design and what we design (a Worfian hypothesis). But I’m not a visual design specialist.</p>
+<p>I can design wireframes and  high-fidelity mockups of software using Figma and can prototype interactions, transitions, and animations in Figma, HTML/CSS, Origami. I’m a competent visual designer who is familiar with design, art, art history, principles of typography. I know the difference between Russian constructivism and neo-brutalism and can talk about the role of technology in shaping both how we design and what we design (a Worfian hypothesis). But I’m not a visual design specialist.</p>
 
 <p>I’m researcher, product manager, designer, prototyper, and curious person who likes to learn and solve problems.</p>
 
@@ -138,10 +179,52 @@ in opposition to a materialistic culture.
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">~</span><span class="sr">/my-new-site-name $ bundle exec jekyll serve --watch</span></code></pre></figure>
 
-<p>Now that the server is ‘watching’ your site for changes, as you add code and content, Jekyll automatically re-generates the entire site. In my case, with just a few pages, the process takes .22 seconds. Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
+<p>Now that the server is ‘watching’ your site for changes, as you add code and content, Jekyll automatically re-generates the entire site. In my case, with just a few pages, the process takes .22 seconds.</p>
+
+<p>Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
+
+<h4 id="create-a-new-branch">CREATE A NEW BRANCH</h4>
+<p>Create a new branch with git</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
+
+<p>or checkout an existing branch</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
+
+<h4 id="rebuild-and-publish">REBUILD AND PUBLISH</h4>
+<p>You can rebuild the site locally in many different ways, but using the –watch flag is simple.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">watch</span></code></pre></figure>
+
+<p>Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site)</p>
+
+<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code>and includes the necessary front matter.
+Then make edits to files in the <code class="language-plaintext highlighter-rouge">_posts</code> directory. When you are done, quit the jekyll server with <code class="language-plaintext highlighter-rouge">ctrl-c</code>, and then add all the changes to git’s staging area:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">add</span> <span class="o">.</span></code></pre></figure>
+
+<p>Now you are ready to commit the changes with a message describing what changed</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"Your commit message"</span> </code></pre></figure>
+
+<p>Then push your branch to the remote repo</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
+
+<p>Finally, checkout master, pull master to make sure master is up to data, and then merge and push:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
+<span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>  <span class="c1"># Ensure master is up-to-date</span>
+<span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+
+<p>Your site will be updated in a minute or so. If you want to delete the branch you can</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">-</span><span class="n">d</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span></code></pre></figure>
 
 <h4 id="why-jekyll">WHY JEKYLL?</h4>
-<p>What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you’re like me, and eager to learn more Ruby, then Jekyll is a great way to ease into things. Take a look at the list of blog posts in  <code class="language-plaintext highlighter-rouge">/blog</code> (or the footer of the home page), under the hood there’s a bit of embedded Ruby in the HTML and this Ruby says: make a list of all the blog articles, discard all but the most recent three posts, then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags here. The hed, dek, etc. are all defined in the front matter of the markdown file you use to create the post. ‘Front matter’ sound confusing? Just open the sample posts that are baked into the default new site. It’ll make instant sense. They’re just variables that you can refer to elsewhere.</p>
+<p>What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you’re like me, and eager to learn more Ruby, then Jekyll is a great way to ease into things. Take a look at the list of blog posts in <code class="language-plaintext highlighter-rouge">/blog</code> (or the footer of the home page), under the hood there’s a bit of embedded Ruby in the HTML and this Ruby says: make a list of all the blog articles, discard all but the most recent four posts, then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags here. The hed, dek, etc. are all defined in the front matter of the markdown file you use to create the post. ‘Front matter’ sound confusing? Just open the sample posts that are baked into the default new site. It’ll make instant sense. They’re just variables that you can refer to elsewhere.</p>
 
 <p>I found Jekyll’s includes and layouts easy to navigate. You put reusable code for the head, header, and footers in the includes directory, then include them into layouts you create, for example a  <code class="language-plaintext highlighter-rouge">page</code> layout. When you create a new instance of a <code class="language-plaintext highlighter-rouge">page</code>, it knows that a  <code class="language-plaintext highlighter-rouge">page</code> is just a slight variation on the <code class="language-plaintext highlighter-rouge">default</code> layout.</p>
 
@@ -159,16 +242,7 @@ in opposition to a materialistic culture.
 
 <p>The full-bleed image at the top of the site is a photogram of pine needles. I chose this image because it reveals the rhythm, inner structure of something simple, something we take for granted. It is “Dennenaalden, anonymous, 1840 - 1845” and is part of the <a href="https://www.rijksmuseum.nl/en/my/collections/183512--stefan-smagula/patterns/objecten#/RP-F-F15045,0">Rijskmuseum collection</a> in Amsterdam.</p>
 
-<h4 id="rebuilding-and-publishing">REBUILDING AND PUBLISHING</h4>
-<p>You can rebuild the site locally in many different ways, but using the –watch flag is simple. When you’re ready, you publish the entire site with a new incantation:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
-
-<p>Simple, right?</p>
-
-<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter.</p>
-
-<p>Jekyll also offers support for code snippets:</p>
+<h4 id="jekyll-also-offers-support-for-code-snippets">Jekyll also offers support for code snippets:</h4>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
   <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
