@@ -7,9 +7,10 @@ dek: Sometimes hundreds of millions of eyes are useful
 date:   2024-11-30 09:27:14 -0600
 categories:
 author: "Stefan Smagula"
-img-large: http://cdn.static-economist.com/sites/default/files/imagecache/full-width/images/print-edition/20170128_STP002_0.jpg
-img-small: http://cdn.static-economist.com/sites/default/files/imagecache/200-width/images/print-edition/20170128_STP003_2.jpg
+img-large: https://www.mediastorehouse.com/p/731/group-ix-suw-no-1-swan-no-19782289.jpg
+img-small: https://www.mediastorehouse.com/p/731/group-ix-suw-no-1-swan-no-19782289.jpg
 ---
+*Group IX / SUW, No. 1, The Swan, No. 1, 1914-1915, by Hilma af Klint (1862-1944)* 
 
 RIGHT BEFORE THE DOT COM boom blossomed into peak irrational exuberance I wrote my master’s degree thesis called “The Almost Chosen Ones” about technogical anxiety and American religions. With an MA in hand, I left my job working at a  technology R&D center and started working at a software product company in Austin, Texas. We didn't know it at the time, but the bubble was about to burst, and the forecast was for storms.
 
