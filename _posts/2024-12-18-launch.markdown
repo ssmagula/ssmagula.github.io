@@ -3,7 +3,7 @@ layout: post
 flytitle: Big batch, waterfall, big bang
 title: T-minus three, two, one...wait, what's going on?
 comments: true
-dek: The true nature of a failed launch is that it is unaware of being a failed launch
+dek: The true nature of a failed launch is that it is unaware of being a failed launch, Episode No. 3
 date:   2024-12-18 09:27:14 -0600
 categories:
 author: Stefan Smagula
@@ -36,7 +36,11 @@ One day, in the thick of this absolutely all-consuming pressure to perform, I he
 
 I went back to my desk. Had I contributed to the pressure? Had I pushed for more, faster, better? Were we all partly responsible for creating the tank that rolled over him, and us?
 
+#### PREVIOUS INSTALLMENT 
+See: [He said "All you have to do now is just write the code"](/2024/12/08/a_new_browser.html)
+
 #### NEXT INSTALLMENT
 I'll share what happens when the clouds parted, and the true nature of our project was revealed.
+See: [Look for a manila envelope on your desk](/2024/12/28/manila_envelopes.html)
 
 NB: Names and details have been changed.

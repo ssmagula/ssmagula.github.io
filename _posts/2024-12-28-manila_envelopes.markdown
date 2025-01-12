@@ -3,8 +3,8 @@ layout: post
 flytitle: Streamlined operations
 title: Look for a manila envelope on your desk
 comments: true
-dek: Just before the launch of what would have been the first tabbed browser, something got in the way
-date:   2024-12-18 09:27:14 -0600
+dek: Just before the launch of what would have been the first tabbed browser, something got in the way, Episode No. 4
+date:   2024-12-28 09:27:14 -0600
 categories:
 author: Stefan Smagula
 img-large: https://www.mediastorehouse.com/p/731/largest-no-7-adulthood-group-iv-19781579.jpg
@@ -48,6 +48,9 @@ A few years later I was still at Hyper-Scale company working on a new Internet-b
 #### EPILOGUE
 I look back on the two years I spent helping to create a new browser, and even though it never launched, it is one of my most memorable work experiences. I learned that big batch, waterfall, big bang approaches are inherently risky. The longer the elapsed time between "good idea" and "in the user's hands" the more risk your are taking on. The world, technologies, and the economy never stop changing. To reduce risks, you need to work in small, incremental batches, release early and often, learn and adapt, and prototype frequently, involve existing and prospective users to reduce risk. But not all risks are bad. Some are vital. Our decision to go with a tabbed browser was a risk, and a good risk. The browser and the attached service would have been wildly successful, had we launched. I learned that deadlines are important and motivational, but no deadline is ever more important than everyone's health.
 
-It feels great to work at Mozilla Firefox today, the independent browser that survived the gauntlet to launch and practically take over the browser world with about 35% of marketshare at peak. I'm proud to be working on new productivity improvements for Firefox, such as Tab Groups and several smart tab and smart tab group features, which use machine learning models to partially automate annoying, time consuming, or difficult browser management tasks—several of which involve those newfangled browser tabs.
+It feels great to work at Mozilla Firefox today, the independent browser that survived the gauntlet to launch and practically take over the browser world with about 35% of marketshare at peak. I'm proud to be working on introducing tab groups to Firefox, the biggest boost to productivity boost since tabs. I'm also excited to be exploring other productivity boosting features which use private, secure, and local machine learning models to automate annoying, time consuming, or difficult browser organization and management tasks, several of which involve those newfangled browser tabs.
+
+#### PREVIOUS INSTALLMENT 
+See: [T-minus three, two, one...wait, what's going on?](/2024/12/18/launch.html)
 
 NB: Names and details have been changed.

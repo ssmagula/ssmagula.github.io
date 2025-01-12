@@ -3,7 +3,7 @@ layout: post
 flytitle: The browser project
 title: He said "All you have to do now is just write the code"
 comments: true
-dek: The start of a high-stakes, high-pressure project to reinvent a Web browser
+dek: The start of a high-stakes, high-pressure project to reinvent a Web browser, Episode No. 2
 date:   2024-12-08 09:27:14 -0600
 categories:
 author: Stefan Smagula
@@ -36,7 +36,11 @@ The head of the user research team was not happy with the tabs. She argued that 
 
 Right about then we hired a design agency. It was a company founded by a guy who had designed several of Apple's classic, early products. The group of us talked about the pros and cons of tabs in a browser, and a decision was made: we already had a functional prototype, the technoligical risk was low. We'd gather feedback from prospective users and adjust if needed. Tabs were in.
 
+#### PREVIOUS INSTALLMENT 
+See: [What I learned from the first browser I worked on](/2024/11/30/my_first_browser.html)
+
 #### NEXT INSTALLMENT
-I'll share a stroy about what happened about a year later, when an ambulance pulled up to our building.
+I'll share a story about what happened about a year later, when an ambulance pulled up to our building.
+See: [T-minus three, two, one...wait, what's going on?](/2024/12/18/launch.html)
 
 NB: Names and details have been changed.

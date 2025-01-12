@@ -3,7 +3,7 @@ layout: post
 flytitle: Distribution
 title:  What I learned from the first browser I worked on
 comments: true
-dek: Sometimes hundreds of millions of eyes are useful
+dek: Sometimes hundreds of millions of eyes are useful, Episode No. 1
 date:   2024-11-30 09:27:14 -0600
 categories:
 author: "Stefan Smagula"
@@ -41,3 +41,5 @@ When people buy a computer they tend to accept the defaults because they think "
 
 #### NEXT INSTALLMENT
 In my next few posts I'll write about the ummm...adventure we had when the Chief Product Officer was abruptly fired, and then a decision was made that we would re-think and re-invent the customized browser that was preinstalled on every Microsoft desktop in North America. We were asked to upgrade it technologically in order to offer a new and pricier service that would be better at motivating new users to stick around. This new, better browser and service would increase the lifetime value of each user, but something got in the way. Spoiler alert: it was a tabbed browser with a full productivity suite, and it predated Firefox, the "first tabbed browser."
+
+Read the next episode in this series: [He said "All you have to do now is just write the code"](/2024/12/08/a_new_browser.html)
