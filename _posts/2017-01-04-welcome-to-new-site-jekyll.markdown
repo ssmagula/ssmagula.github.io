@@ -32,6 +32,8 @@ Now that the server is 'watching' your site for changes, as you add code and con
 
 Then you push the site to a git repository like [Github][github], and publish it via Github Pages.
 
+Below is a more detailed look at the steps I go through to make changes to the site.
+
 #### CREATE A NEW BRANCH
 Create a new branch with git
 {% highlight ruby %}
@@ -42,15 +44,16 @@ or checkout an existing branch
 git checkout -b <new-branch-name> 
 {% endhighlight %}
 
-#### REBUILD AND PUBLISH
+#### START WATCHING FOR CHANGES 
 You can rebuild the site locally in many different ways, but using the --watch flag is simple. 
 {% highlight ruby %}
 bundle exec jekyll serve --watch
 {% endhighlight %}
-Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site)
+Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site).
 
-To add new posts to your blog, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext`and includes the necessary front matter.
-Then make edits to files in the `_posts` directory. When you are done, quit the jekyll server with `ctrl-c`, and then add all the changes to git's staging area:
+#### ADD POSTS, COMMIT, MERGE
+To add new posts to your blog, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.markdown`and includes the necessary front matter.
+Then make edits to files in the `_posts` directory, or to other files. Each time you edit, the site will regenerate, and you can preview the changes in your browser. When you are done, quit the jekyll server with `ctrl-c`, and then add all the changes to git's staging area:
 {% highlight ruby %}
 git add .
 {% endhighlight %}
@@ -62,18 +65,22 @@ Then push your branch to the remote repo
 {% highlight ruby %}
 git push origin <new-branch-name> 
 {% endhighlight %}
-Finally, checkout master, pull master to make sure master is up to data, and then merge and push:
+Finally, checkout master and git pull master to make sure the master branch is up to date, and then merge and push:
 {% highlight ruby %}
 git checkout master
 git pull origin master  # Ensure master is up-to-date
-git merge <new-branch-name>
-git push -u origin master
+git merge <new-branch-name> # Merge the new-branch-name into master
 {% endhighlight %}
-Your site will be updated in a minute or so. If you want to delete the branch you can
+
+#### PUBLISH AND CLEANUP
+To make the changes go live on your site use:
+{% highlight ruby %}
+git push -u origin master   
+{% endhighlight %}
+Your site will be updated in a minute or so. If you want to delete the branch you were using you can
 {% highlight ruby %}
 git branch -d <new-branch-name>
 {% endhighlight %}
-
 
 #### WHY JEKYLL?
 What can you do with Jekyll? Well, pretty much anything that you can do with Ruby. If you're like me, and eager to learn more Ruby, then Jekyll is a great way to ease into things. Take a look at the list of blog posts in `/blog` (or the footer of the home page), under the hood there's a bit of embedded Ruby in the HTML and this Ruby says: make a list of all the blog articles, discard all but the most recent four posts, then create a 23-word excerpt for each, and output the hed, dek, small image, and excerpt into these HTML tags here. The hed, dek, etc. are all defined in the front matter of the markdown file you use to create the post. 'Front matter' sound confusing? Just open the sample posts that are baked into the default new site. It'll make instant sense. They're just variables that you can refer to elsewhere.

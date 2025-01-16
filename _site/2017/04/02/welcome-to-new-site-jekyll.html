@@ -202,6 +202,8 @@
 
 <p>Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
 
+<p>Below is a more detailed look at the steps I go through to make changes to the site.</p>
+
 <h4 id="create-a-new-branch">CREATE A NEW BRANCH</h4>
 <p>Create a new branch with git</p>
 
@@ -211,15 +213,16 @@
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
 
-<h4 id="rebuild-and-publish">REBUILD AND PUBLISH</h4>
+<h4 id="start-watching-for-changes">START WATCHING FOR CHANGES</h4>
 <p>You can rebuild the site locally in many different ways, but using the –watch flag is simple.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">watch</span></code></pre></figure>
 
-<p>Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site)</p>
+<p>Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site).</p>
 
-<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code>and includes the necessary front matter.
-Then make edits to files in the <code class="language-plaintext highlighter-rouge">_posts</code> directory. When you are done, quit the jekyll server with <code class="language-plaintext highlighter-rouge">ctrl-c</code>, and then add all the changes to git’s staging area:</p>
+<h4 id="add-posts-commit-merge">ADD POSTS, COMMIT, MERGE</h4>
+<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.markdown</code>and includes the necessary front matter.
+Then make edits to files in the <code class="language-plaintext highlighter-rouge">_posts</code> directory, or to other files. Each time you edit, the site will regenerate, and you can preview the changes in your browser. When you are done, quit the jekyll server with <code class="language-plaintext highlighter-rouge">ctrl-c</code>, and then add all the changes to git’s staging area:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">add</span> <span class="o">.</span></code></pre></figure>
 
@@ -231,14 +234,18 @@ Then make edits to files in the <code class="language-plaintext highlighter-roug
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
 
-<p>Finally, checkout master, pull master to make sure master is up to data, and then merge and push:</p>
+<p>Finally, checkout master and git pull master to make sure the master branch is up to date, and then merge and push:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
 <span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>  <span class="c1"># Ensure master is up-to-date</span>
-<span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span>
-<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+<span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> <span class="c1"># Merge the new-branch-name into master</span></code></pre></figure>
 
-<p>Your site will be updated in a minute or so. If you want to delete the branch you can</p>
+<h4 id="publish-and-cleanup">PUBLISH AND CLEANUP</h4>
+<p>To make the changes go live on your site use:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span>   </code></pre></figure>
+
+<p>Your site will be updated in a minute or so. If you want to delete the branch you were using you can</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">-</span><span class="n">d</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span></code></pre></figure>
 

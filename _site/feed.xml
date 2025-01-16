@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-12T23:48:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stefan Smagula Case Studies</title><subtitle>Powering people and products to reach their potential
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-16T01:09:47+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stefan Smagula Case Studies</title><subtitle>Powering people and products to reach their potential
 </subtitle><entry><title type="html">Look for a manila envelope on your desk</title><link href="http://localhost:4000/2024/12/28/manila_envelopes.html" rel="alternate" type="text/html" title="Look for a manila envelope on your desk" /><published>2024-12-28T15:27:14+00:00</published><updated>2024-12-28T15:27:14+00:00</updated><id>http://localhost:4000/2024/12/28/manila_envelopes</id><content type="html" xml:base="http://localhost:4000/2024/12/28/manila_envelopes.html"><![CDATA[<p><em>Group IV, The Ten Largest, No. 7, Adulthood (1907) by Hilma af Klint, Guggenheim Museum, New York City</em></p>
 
 <p>WE HAD BEEN WORKING for almost two years on a new browser and it was nearly ready. This browser had tabs at a time when tabbed browsers did not exist, and it sported an email client, stock portfolio manager, and a calendar. The new session start page, the one which Morton had asked me about during my interview two years earlier, was also ready for the 20 million eyeballs that viewed it daily. The challenge we had was to upgrade the browser experience and the technology behind the service, without making the kinds of changes that would cause existing users to switch. There were plenty of other browsers and services like ours out there, and people could switch to a new one at any time.</p>
@@ -98,7 +98,7 @@ See: <a href="/2024/12/28/manila_envelopes.html">Look for a manila envelope on y
 
 <p>The head of the user research team was not happy with the tabs. She argued that our subscribers were “everyday people, not techies. They just want to to check their email, maybe search for something. That’s it.” She said “Why do we want to complicate their lives with tons of extra tabs and applications they don’t want or need?” This planted a seed of doubt. Would “everyday people” be confused by tabs? I heard people say “tabs are too risky.”</p>
 
-<p>Right about then we hired a design agency. It was a company founded by a guy who had designed several of Apple’s classic, early products. The group of us talked about the pros and cons of tabs in a browser, and a decision was made: we already had a functional prototype, the technoligical risk was low. We’d gather feedback from prospective users and adjust if needed. Tabs were in.</p>
+<p>Right about then we hired a design agency. It was a company founded by a guy who had designed several of Apple’s classic, early products. The group of us talked about the pros and cons of tabs in a browser, and a decision was made: we already had a functional prototype, the technological risk was low. We’d gather feedback from prospective users and adjust if needed. Tabs were in.</p>
 
 <h4 id="previous-installment">PREVIOUS INSTALLMENT</h4>
 <p>See: <a href="/2024/11/30/my_first_browser.html">What I learned from the first browser I worked on</a></p>
@@ -198,6 +198,8 @@ in opposition to a materialistic culture.
 
 <p>Then you push the site to a git repository like <a href="https://github.com/">Github</a>, and publish it via Github Pages.</p>
 
+<p>Below is a more detailed look at the steps I go through to make changes to the site.</p>
+
 <h4 id="create-a-new-branch">CREATE A NEW BRANCH</h4>
 <p>Create a new branch with git</p>
 
@@ -207,15 +209,16 @@ in opposition to a materialistic culture.
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
 
-<h4 id="rebuild-and-publish">REBUILD AND PUBLISH</h4>
+<h4 id="start-watching-for-changes">START WATCHING FOR CHANGES</h4>
 <p>You can rebuild the site locally in many different ways, but using the –watch flag is simple.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">watch</span></code></pre></figure>
 
-<p>Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site)</p>
+<p>Now, as you make edits, the site will regenerate, and you can preview the changes in a new browser tab that is pointing at the right ports (in a Github Codespace which uses VS Code, just go to the Ports tab and click on the globe icon to open a preview of the site).</p>
 
-<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code>and includes the necessary front matter.
-Then make edits to files in the <code class="language-plaintext highlighter-rouge">_posts</code> directory. When you are done, quit the jekyll server with <code class="language-plaintext highlighter-rouge">ctrl-c</code>, and then add all the changes to git’s staging area:</p>
+<h4 id="add-posts-commit-merge">ADD POSTS, COMMIT, MERGE</h4>
+<p>To add new posts to your blog, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.markdown</code>and includes the necessary front matter.
+Then make edits to files in the <code class="language-plaintext highlighter-rouge">_posts</code> directory, or to other files. Each time you edit, the site will regenerate, and you can preview the changes in your browser. When you are done, quit the jekyll server with <code class="language-plaintext highlighter-rouge">ctrl-c</code>, and then add all the changes to git’s staging area:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">add</span> <span class="o">.</span></code></pre></figure>
 
@@ -227,14 +230,18 @@ Then make edits to files in the <code class="language-plaintext highlighter-roug
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> </code></pre></figure>
 
-<p>Finally, checkout master, pull master to make sure master is up to data, and then merge and push:</p>
+<p>Finally, checkout master and git pull master to make sure the master branch is up to date, and then merge and push:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
 <span class="n">git</span> <span class="n">pull</span> <span class="n">origin</span> <span class="n">master</span>  <span class="c1"># Ensure master is up-to-date</span>
-<span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span>
-<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+<span class="n">git</span> <span class="n">merge</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span> <span class="c1"># Merge the new-branch-name into master</span></code></pre></figure>
 
-<p>Your site will be updated in a minute or so. If you want to delete the branch you can</p>
+<h4 id="publish-and-cleanup">PUBLISH AND CLEANUP</h4>
+<p>To make the changes go live on your site use:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span>   </code></pre></figure>
+
+<p>Your site will be updated in a minute or so. If you want to delete the branch you were using you can</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="o">-</span><span class="n">d</span> <span class="o">&lt;</span><span class="n">new</span><span class="o">-</span><span class="n">branch</span><span class="o">-</span><span class="nb">name</span><span class="o">&gt;</span></code></pre></figure>
 
